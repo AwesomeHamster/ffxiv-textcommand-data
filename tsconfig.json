@@ -1,0 +1,7 @@
+{
+  "extends": "@hamster-bot/constructeur/tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts"]
+}
