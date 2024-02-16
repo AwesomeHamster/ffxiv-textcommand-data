@@ -246,7 +246,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        'USAGE:\n\n　/nameplatedisp [category] [setting number]\n\n\n\n→Change PC display name settings.\n\n\n\n>>Category:\n\n　All Players\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>all<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Your Character\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>self<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Party Members\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>party<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Other PCs\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>other<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Friends\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>friend<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Crystalline Conflict Opponents\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\n>>Setting Number\n\n　1: Always\n\n　2: During Battle\n\n　3: When Targeted\n\n　4: Never\n\n\n\n>>Example:\n\n　/nameplatetype all 4\n\n　(Set display names to never\n\n　display for all players.)',
+        'USAGE:\n\n　/nameplatedisp [category] [setting number]\n\n\n\n→Change PC display name settings.\n\n\n\n>>Category:\n\n　All Players\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>all<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Your Character\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>self<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Party Members\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>party<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Other PCs\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>other<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Friends\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>friend<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Crystalline Conflict Opponents\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>feast<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\n>>Setting Number\n\n　1: Always\n\n　2: During Battle\n\n　3: When Targeted\n\n　4: Never\n\n\n\n>>Example:\n\n　/nameplatedisp all 4\n\n　(Set display names to never\n\n　display for all players.)',
     },
     {
       ID: 29,
@@ -290,7 +290,7 @@ const data: MacrosData = {
       Alias: '/petglamour',
       ShortAlias: '/petglam',
       Description:
-        'ALIASES:\n\n　/petglamour, /petglam, /egiglamour\n\nUSAGE:\n\n　/petglamour [summon] [glamour]\n\n\n\n→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.\n\n\n\n>>Summon Name:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\n>>Glamour:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\nThe glamour will be removed when no glamour is specified.\n\n\n\n>>Example:\n\n　/petglamour "Garuda-Egi" "Ruby Carbuncle"\n\n　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)',
+        'ALIASES:\n\n　/petglamour, /petglam, /egiglamour\n\nUSAGE:\n\n　/petglamour [summon] [glamour]\n\n\n\n→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.\n\n\n\n>>Summon Name:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\n>>Glamour:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\nThe glamour will be removed when no glamour is specified.\n\nDisplays pet glamour settings in chat log when no subcommand is specified.\n\n\n\n>>Example:\n\n　/petglamour "Garuda-Egi" "Ruby Carbuncle"\n\n　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)\n\n　/petglamour "Garuda-Egi"\n\n　(Returns Garuda-Egi to default appearance.)\n\n　/petglamour\n\n　(Displays pet glamour settings.)',
     },
     {
       ID: 34,
@@ -335,6 +335,33 @@ const data: MacrosData = {
       ShortAlias: '',
       Description:
         'ALIASES:\n\n　/adventurerplate, /myplate\n\nUSAGE:\n\n　/myplate\n\n\n\n→Opens and closes your adventurer plate.',
+    },
+    {
+      ID: 39,
+      Command: '/rclickpc',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/rclickpc [subcommand]\n\n\n\n→Sets right-click selection to allow or ignore PC targets.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Disables right-click selection for PCs.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Enables right-click selection for PCs.\n\n\n\nToggles between on and off when no subcommand is specified.',
+    },
+    {
+      ID: 40,
+      Command: '/rclickbattlenpc',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/rclickbattlenpc [subcommand]\n\n\n\n→Sets right-click selection to allow or ignore battle NPC targets.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Disables right-click selection for battle NPCs.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Enables right-click selection for battle NPCs.\n\n\n\nToggles between on and off when no subcommand is specified.',
+    },
+    {
+      ID: 41,
+      Command: '/rclickminion',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/rclickminion [subcommand]\n\n\n\n→Sets right-click selection to allow or ignore minion targets.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Disables right-click selection for minions.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Enables right-click selection for minions.\n\n\n\nToggles between on and off when no subcommand is specified.',
     },
     {
       ID: 91,
@@ -759,7 +786,7 @@ const data: MacrosData = {
       Alias: '/enemysign',
       ShortAlias: '',
       Description:
-        'ALIASES:\n\n　/enemysign, /marking, /mk\n\nUSAGE:\n\n　/enemysign [sign type] [placeholder]\n\n\n\n→Set a sign on the specified target. Uses current target when not specified.\n\n\n\n>>Sign Types:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>attack1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bind1-3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ignore1-2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>circle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cross<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>square<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>triangle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow> off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>/<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Turns off sign.\n\n\n\nOpens and closes the Signs menu when no subcommand is specified.\n\n\n\n>>Common Placeholders:\n\n　<t>, <target>, <1>-<8>\n\n\n\nA full list of placeholders can be found on the Lodestone Play Guide.\n\n\n\n>>Example:\n\n　/marking attack2 <t>\n\n　(Assigns "Target to Attack 2"\n\n　to target.)',
+        'ALIASES:\n\n　/enemysign, /marking, /mk\n\nUSAGE:\n\n　/enemysign [sign type] [placeholder]\n\n\n\n→Set a sign on the specified target. Uses current target when not specified.\n\n\n\n>>Sign Types:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>attack1-8<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bind1-3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ignore1-2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>circle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cross<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>square<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>triangle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>　off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>/<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Turns off sign.\n\n\n\nOpens and closes the Signs menu when no subcommand is specified.\n\n\n\n>>Common Placeholders:\n\n　<t>, <target>, <1>-<8>\n\n\n\nA full list of placeholders can be found on the Lodestone Play Guide.\n\n\n\n>>Example:\n\n　/marking attack2 <t>\n\n　(Assigns "Target to Attack 2"\n\n　to target.)',
     },
     {
       ID: 157,
@@ -948,7 +975,7 @@ const data: MacrosData = {
       Alias: '/waymark',
       ShortAlias: '/wmark',
       Description:
-        "ALIASES:\n\n　/waymark, /wmark\n\nUSAGE:\n\n　/wmark [subcommand] [placeholder]\n\n\n\n→Place a waymark on the ground below a target. If no target is specified, you will enter ground targeting mode ready to place a waymark.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>a <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark A. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>b <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark B. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>c <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark C. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>d<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark D. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark 1. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark 2. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark 3. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>4<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark 4. Overwrites existing waymark if target is specified.\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow> off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>/<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Remove all waymarks.\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>save 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Save waymark placements to slots 1-5 of the Waymarks menu.\n\n　 <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>preset 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Load waymark placements from slots 1-5 of the Waymarks menu.\n\n\n\nYou will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.\n\n\n\n>>Common Placeholders:\n\n　<t>, <target>, <1>-<8>, gtoff\n\n\n\nA full list of placeholders can be found on the Lodestone Play Guide.\n\n\n\n>>Examples:\n\n　/waymark A\n\n　(Enters ground targeting\n\n　mode ready to place\n\n　waymark A.)\n\n\n\n　/waymark A <t>\n\n　(Places waymark A at the\n\n　selected target's location.)\n\n\n\n　/waymark A gtoff\n\n　(Places waymark A at the\n\n　mouse cursor's location.)",
+        "ALIASES:\n\n　/waymark, /wmark\n\nUSAGE:\n\n　/wmark [subcommand] [placeholder]\n\n\n\n→Place a waymark on the ground below a target. If no target is specified, you will enter ground targeting mode ready to place a waymark.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>a <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark A. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>b <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark B. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>c <UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark C. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>d<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark D. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark 1. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark 2. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark 3. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>4<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Place or remove waymark 4. Overwrites existing waymark if target is specified.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow> off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>/<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Remove all waymarks.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>save 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Save waymark placements to slots 1-30 of the Waymarks menu.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>preset 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Load waymark placements from slots 1-30 of the Waymarks menu.\n\n\n\nYou will enter ground targeting mode ready to place an unused waymark in the order of A-D, 1, 2 when no subcommand is specified. More than six waymarks cannot be placed at one time. If a target name is specified, a marker name must also be specified.\n\n\n\n>>Common Placeholders:\n\n　<t>, <target>, <1>-<8>, gtoff\n\n\n\nA full list of placeholders can be found on the Lodestone Play Guide.\n\n\n\n>>Examples:\n\n　/waymark A\n\n　(Enters ground targeting\n\n　mode ready to place\n\n　waymark A.)\n\n\n\n　/waymark A <t>\n\n　(Places waymark A at the\n\n　selected target's location.)\n\n\n\n　/waymark A gtoff\n\n　(Places waymark A at the\n\n　mouse cursor's location.)",
     },
     {
       ID: 179,
@@ -1282,7 +1309,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        'ALIASES:\n\n　/grouppose, /gpose\n\nUSAGE:\n\n　/gpose\n\n\n\n→Pose as a group.\n\n\n\n>>Controls\n\n　Open the Camera Settings interface\n\n　<CommandIcon(10)/>, R, NUM*, Mouse Wheel\n\n\n\n　Toggle group view on camera\n\n　<CommandIcon(11)/>, Spacebar\n\n\n\n　Toggle camera lighting\n\n　<CommandIcon(13)/>, X\n\n\n\n　Toggle all character motions\n\n　<CommandIcon(14)/>, 1 Key\n\n\n\n　Toggle target character motions\n\n　<CommandIcon(15)/>, 2 Key\n\n\n\n　Change focus of camera\n\n　<CommandIcon(6)/>, Tab, Shift+Tab\n\n\n\n　Adjust frame composition\n\n 　<CommandIcon(20)/>, W, A, S, D, Q, E\n\n\n\n　Reset frame composition\n\n　<Gui(16)/>, Z',
+        'ALIASES:\n\n　/grouppose, /gpose\n\nUSAGE:\n\n　/gpose\n\n\n\n→Pose as a group.\n\n\n\n>>Controls\n\n　Open the Camera Settings interface\n\n　<CommandIcon(10)/>, <If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, NUM*, Mouse Wheel\n\n\n\n　Toggle group view on camera\n\n　<CommandIcon(11)/>, <If(Equal(PlayerParameter(78),3))>spacebar<Else/>Spacebar</If>\n\n\n\n　Toggle camera lighting\n\n　<CommandIcon(13)/>, <If(Equal(PlayerParameter(78),3))>x<Else/>X</If>\n\n\n\n　Toggle all character motions\n\n　<CommandIcon(14)/>, 1 Key\n\n\n\n　Toggle target character motions\n\n　<CommandIcon(15)/>, 2 Key\n\n\n\n　Change focus of camera\n\n　<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>\n\n\n\n　Adjust frame composition\n\n 　<CommandIcon(20)/>, <If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>\n\n\n\n　Reset frame composition\n\n　<Gui(16)/>, <If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>',
     },
     {
       ID: 220,
@@ -1300,7 +1327,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        'ALIASES:\n\n　/idlingcamera, /icam\n\nUSAGE:\n\n　/icam [placeholder]\n\n\n\n→Activate the idling camera. Target does not need to be specified. If a target is specified, the camera will switch between camera angles focusing on that target. If the specified target cannot be focused on, then a random subject will be chosen.\n\n\n\n>>Controls\n\n　Open the Camera Settings interface\n\n　<CommandIcon(10)/>, R, NUM*, Wheel Button\n\n\n\n　Pause/unpause camera\n\n　<CommandIcon(8)/>, NUM0, left-click\n\n\n\n　Skip scene\n\n　<CommandIcon(6)/>, Tab, Shift+Tab\n\n\n\n　Adjust frame composition\n\n　<CommandIcon(20)/>, W, A, S, D, Q, E\n\n\n\n　Reset frame composition\n\n　<Gui(16)/>, Z\n\n\n\n>>Common Placeholders:\n\n　<t>, <target>, <1>-<8>\n\n\n\nA full list of placeholders can be found on the Lodestone Play Guide.',
+        'ALIASES:\n\n　/idlingcamera, /icam\n\nUSAGE:\n\n　/icam [placeholder]\n\n\n\n→Activate the idling camera. Target does not need to be specified. If a target is specified, the camera will switch between camera angles focusing on that target. If the specified target cannot be focused on, then a random subject will be chosen.\n\n\n\n>>Controls\n\n　Open the Camera Settings interface\n\n　<CommandIcon(10)/>, <If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, NUM*, Wheel Button\n\n\n\n　Pause/unpause camera\n\n　<CommandIcon(8)/>, NUM0, left-click\n\n\n\n　Skip scene\n\n　<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>\n\n\n\n　Adjust frame composition\n\n　<CommandIcon(20)/>, <If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>\n\n\n\n　Reset frame composition\n\n　<Gui(16)/>, <If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>\n\n\n\n>>Common Placeholders:\n\n　<t>, <target>, <1>-<8>\n\n\n\nA full list of placeholders can be found on the Lodestone Play Guide.',
     },
     {
       ID: 223,
@@ -1336,7 +1363,7 @@ const data: MacrosData = {
       Alias: '/egiglamour',
       ShortAlias: '/egiglam',
       Description:
-        'ALIASES:\n\n　/egiglamour, /egiglam, /petglamour\n\nUSAGE:\n\n　/egiglamour [summon] [glamour]\n\n\n\n→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.\n\n\n\n>>Summon Name:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\n>>Glamour:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\nThe glamour will be removed when no glamour is specified.\n\n\n\n>>Example:\n\n　/egiglamour "Garuda-Egi" "Ruby Carbuncle"\n\n　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)',
+        'ALIASES:\n\n　/egiglamour, /egiglam, /petglamour\n\nUSAGE:\n\n　/egiglamour [summon] [glamour]\n\n\n\n→Alter the appearance of select summons. You must resummon the egi for the glamour to take effect. Command not applicable in PvP instances.\n\n\n\n>>Summon Name:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\n>>Glamour:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Emerald Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topaz Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ruby Carbuncle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\nThe glamour will be removed when no glamour is specified.\n\nDisplays pet glamour settings in chat log when no subcommand is specified.\n\n\n\n>>Example:\n\n　/egiglamour "Garuda-Egi" "Ruby Carbuncle"\n\n　(Garuda-Egi will appear glamoured as Ruby Carbuncle.)\n\n　/petglamour "Garuda-Egi"\n\n　(Returns Garuda-Egi to default appearance.)\n\n　/petglamour\n\n　(Displays pet glamour settings.)',
     },
     {
       ID: 227,
@@ -1631,7 +1658,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        'ALIASES:\n\n　/additionalaction, /aaction\n\nUSAGE:\n\n　/aaction "action name" [subcommand]\n\n\n\n→Set the specified action as an additional action for your current gatherer class. This command cannot be used with Disciples of War or Magic.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>　Set additional action.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>　Remove additional action.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>　Remove all additional actions.\n\n\n\nToggle between on and off when no subcommand is specified.\n\n\n\n>>Examples:\n\n　/aaction "Triangulate"\n\n　(Sets Triangulate as an additional action.)\n\n\n\n　/aaction clear\n\n　(Removes all additional actions.)',
+        'ALIASES:\n\n　/additionalaction, /aaction\n\nUSAGE:\n\n　/aaction "action name" [subcommand]\n\n\n\nA command previously believed to set the specified action as an additional action for your current gatherer class.\n\n※This text command is no longer in use.',
     },
     {
       ID: 273,
@@ -1739,7 +1766,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        'USAGE:\n\n　/autotarget [subcommand]\n\n\n\n→Enable auto-target when no target specified.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable auto-target.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable auto-target.\n\n\n\nToggle between on/off when no subcommand is specified.',
+        'USAGE:\n\n　/autotarget [subcommand]\n\n\n\n→Enable full auto-target.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Enable auto-target.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>      Disable auto-target.\n\n\n\nToggle between on/off when no subcommand is specified.',
     },
     {
       ID: 307,
@@ -1811,7 +1838,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        'USAGE:\n\n　/hud [UI element] [subcommand]\n\n\n\n→Toggle on/off various UI elements.\n\n\n\n>>UI Elements:\n\n　Target Bar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>TargetBar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>tbar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Target Info (HP)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>TInfoHP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>tihp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Target Info (Progress)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>TInfoProgress<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>tiprog<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Target Info (Status)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>TInfoStatus<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>tistat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Focus Target Bar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FocusTarget<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ftarget<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Party List\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PartyList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>plist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Enemy List\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EnemyList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>elist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Parameter Bar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ParamBar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>param<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Minimap\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Minimap<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>mmap<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Main Menu\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MainMenu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>mmenu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Server Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ServerInfo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>server<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Gil\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gil<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>gil<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Inventory Grid\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>InventoryGrid<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>igrid<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Duty List\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DutyList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>dlist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Item Help\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ItemHelp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ihelp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Action Help\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ActionHelp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ahelp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Limit Gauge\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LimitGauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>lgauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Experience Bar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ExpBar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ebar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Effects\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>StatusEffects<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sfx<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Info (Enhancements)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Info (Conditional Enhancements)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoConditionalEnhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sicenh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Info (Enfeeblements)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnfeeblements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienf<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Info (Other)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoOther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>siother<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Alliance List 1\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AllianceList1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>alist1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Alliance List 2\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AllianceList2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>alist2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<If(Equal(PlayerParameter(75),1))><Else/>Hotbars\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hotbar1...Hotbar10<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n</If>　Cross Hotbar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crosshotbar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Scenario Guide\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ScenarioGuide<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Compressed Aether\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CompressedAether<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Battle High Gauge\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BattleHighGauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Rival Wings Alliance List\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWAlliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwa<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Rival Wings Station Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWStation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Rival Wings Mercenary Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWMerc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwmrc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>        Show element.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>        Hide element.\n\n\n\nToggle between on/off when no subcommand is specified.',
+        'USAGE:\n\n　/hud [UI element] [subcommand]\n\n\n\n→Toggle on/off various UI elements.\n\n\n\n>>UI Elements:\n\n　Target Bar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>TargetBar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>tbar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Target Info (HP)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>TInfoHP<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>tihp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Target Info (Progress)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>TInfoProgress<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>tiprog<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Target Info (Status)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>TInfoStatus<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>tistat<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Focus Target Bar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FocusTarget<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ftarget<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Party List\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>PartyList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>plist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Enemy List\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>EnemyList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>elist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Parameter Bar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ParamBar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>param<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Minimap\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Minimap<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>mmap<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Main Menu\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>MainMenu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>mmenu<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Server Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ServerInfo<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>server<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Gil\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Gil<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>gil<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Inventory Grid\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>InventoryGrid<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>igrid<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Duty List\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>DutyList<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>dlist<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Item Help\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ItemHelp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ihelp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Action Help\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ActionHelp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ahelp<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Limit Gauge\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>LimitGauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>lgauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Experience Bar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ExpBar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ebar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Effects\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>StatusEffects<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sfx<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Info (Enhancements)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Info (Conditional Enhancements)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoConditional<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Enhancements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sicenh<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Info (Enfeeblements)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoEnfeeblements<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>sienf<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Status Info (Other)\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>SInfoOther<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>siother<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Alliance List 1\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AllianceList1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>alist1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Alliance List 2\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>AllianceList2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>alist2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　<If(Equal(PlayerParameter(75),1))><Else/>Hotbars\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Hotbar1...Hotbar10<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n</If>　Cross Hotbar\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Crosshotbar<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Scenario Guide\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ScenarioGuide<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Compressed Aether\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CompressedAether<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Crystalline Conflict Progress Gauge\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CConflictProgress<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ccprog<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Crystalline Conflict Ally Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CConflictAlly<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ccally<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Crystalline Conflict Enemy Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CConflictEnemy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ccenemy<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Crystalline Conflict Battle Log\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CConflictLog<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cclog<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Crystalline Conflict Map\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>CConflictMap<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ccmap<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Battle High Gauge\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>BattleHighGauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Frontline Score Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>FrontlineScore<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>flscore<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Rival Wings Gauges\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWGauge<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwg<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Rival Wings Alliance List\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWAlliance<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwa<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Rival Wings Station Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWStation<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwst<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　Rival Wings Mercenary Info\n\n　　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>RWMerc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>rwmrc<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on <UIGlow>01</UIGlow><UIForeground>01</UIForeground>        Show element.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off <UIGlow>01</UIGlow><UIForeground>01</UIForeground>        Hide element.\n\n\n\nToggle between on/off when no subcommand is specified.',
     },
     {
       ID: 315,
@@ -4007,7 +4034,16 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        'ALIASES:\n\n　/deride, /pagaga\n\nUSAGE:\n\n　/deride [subcommand]\n\n\n\n→Bare your teeth derisively.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Display motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+        'ALIASES:\n\n　/deride, /pagaga\n\nUSAGE:\n\n　/deride [subcommand]\n\n\n\n→Bare your teeth derisively.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 647,
+      Command: '/wow',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/wow [subcommand]\n\n\n\n→Sparkle with amazement.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
     },
     {
       ID: 648,
@@ -4016,7 +4052,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        'ALIASES:\n\n　/eatpumpkincookie, /cookie\n\nUSAGE:\n\n　/eatpumpkincookie [subcommand]\n\n\n\n→Nibble on a pumpkin cookie.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Display motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+        'ALIASES:\n\n　/eatpumpkincookie, /cookie\n\nUSAGE:\n\n　/eatpumpkincookie [subcommand]\n\n\n\n→Nibble on a pumpkin cookie.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
     },
     {
       ID: 649,
@@ -4026,6 +4062,222 @@ const data: MacrosData = {
       ShortAlias: '',
       Description:
         'USAGE:\n\n　/spirit [subcommand]\n\n\n\n→Show off your team spirit.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 650,
+      Command: '/magictrick',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/magictrick [subcommand]\n\n\n\n→Perform a magic trick.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 651,
+      Command: '/littleladiesdance',
+      ShortCommand: '/ladance',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        "ALIASES:\n\n　/littleladiesdance, /ladance\n\nUSAGE:\n\n　/ladance [subcommand]\n\n\n\n→Perform the Little Ladies' Dance.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.",
+    },
+    {
+      ID: 652,
+      Command: '/linkpearl',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/linkpearl [subcommand]\n\n\n\n→Make a linkpearl call.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 653,
+      Command: '/earwiggle',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/earwiggle [subcommand]\n\n\n\n→Wiggle suddenly enormous ears.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 657,
+      Command: '/frighten',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/frighten [subcommand]\n\n\n\n→Attempt to appear menacing.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 658,
+      Command: '/adventoflight',
+      ShortCommand: '/advent',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/adventoflight, /advent [subcommand]\n\n\n\n→Soar to the heavens, then make a suitably heroic landing.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 659,
+      Command: '/jumpforjoy1',
+      ShortCommand: '/jj1',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/jumpforjoy1, /jj1 [subcommand]\n\n\n\n→Jump happily for joy.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 660,
+      Command: '/jumpforjoy2',
+      ShortCommand: '/jj2',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/jumpforjoy2, /jj2 [subcommand]\n\n\n\n→Jump merrily for joy.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 661,
+      Command: '/jumpforjoy3',
+      ShortCommand: '/jj3',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/jumpforjoy3, /jj3 [subcommand]\n\n\n\n→Jump enthusiastically for joy.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 662,
+      Command: '/jumpforjoy4',
+      ShortCommand: '/jj4',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/jumpforjoy4, /jj4 [subcommand]\n\n\n\n→Jump cheerfully for joy.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 663,
+      Command: '/jumpforjoy5',
+      ShortCommand: '/jj5',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/jumpforjoy5, /jj5 [subcommand]\n\n\n\n→Jump for joy like a sabotender.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 664,
+      Command: '/handtoheart',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/handtoheart [subcommand]\n\n\n\n→Gently place your hand on your heart.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 665,
+      Command: '/cheeronbright',
+      ShortCommand: '/cheerbright',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/cheeronbright, /cheerbright [subcommand]\n\n\n\n→Wave your hands enthusiastically with white illuminated rods.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 666,
+      Command: '/cheerwaveviolet',
+      ShortCommand: '/cheerviolet',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/cheerwaveviolet, /cheerviolet [subcommand]\n\n\n\n→Wave your hand in the air with a violet illuminated rod.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 667,
+      Command: '/cheerjumpgreen',
+      ShortCommand: '/cheergreen',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/cheerjumpgreen, /cheergreen [subcommand]\n\n\n\n→Jump and cheer enthusiastically with green illuminated rods.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 668,
+      Command: '/allsaintscharm',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/allsaintscharm [subcommand]\n\n\n\n→Swish and flick to cast a spell.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 670,
+      Command: '/lophop',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/lophop [subcommand]\n\n\n\n→Perform the Lop Hop.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 671,
+      Command: '/reference',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/reference [subcommand]\n\n\n\n→Consult literature.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 672,
+      Command: '/eatchicken',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/eatchicken  [subcommand]\n\n\n\n→Snack on a piece of fried chicken.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 673,
+      Command: '/sundering',
+      ShortCommand: '/exodus',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'ALIASES:\n\n　/sundering, /exodus\n\nUSAGE:\n\n　/sundering [subcommand]\n\n\n\n→Perform Exodus and sunder the world.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 674,
+      Command: '/slump',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'USAGE:\n\n　/slump [subcommand]\n\n\n\n→Hang your head in defeat.\n\n\n\n>>Subcommands:\n\n 　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 675,
+      Command: '/loveheart',
+      ShortCommand: '/heart',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'ALIASES:\n\n　/loveheart, /heart\n\nUSAGE:\n\n　/loveheart [subcommand]\n\n\n\n→Make a heart shape with your hands.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 676,
+      Command: '/humbletriumph',
+      ShortCommand: '/waitforit',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'ALIASES:\n\n　/humbletriumph, /waitforit\n\nUSAGE:\n\n　/humbletriumph [subcommand]\n\n\n\n→Strike a mildly triumphant pose.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
+    },
+    {
+      ID: 677,
+      Command: '/victoryreveal',
+      ShortCommand: '/vreveal',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        'ALIASES:\n\n　/victoryreveal, /vreveal\n\nUSAGE:\n\n　/victoryreveal [subcommand]\n\n\n\n→Await news of your victory.\n\n\n\n>>Subcommands:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>    Perform motion only.\n\n\n\nBoth text and motion will be displayed when no subcommand is specified.',
     },
   ],
   de: [
@@ -4313,7 +4565,7 @@ const data: MacrosData = {
       Alias: '/familiarprojektion',
       ShortAlias: '/fampro',
       Description:
-        '/familiarprojektion, /fampro, /petmirage, /egimirage\n\nVERWENDUNG: /fampro [Familiarname] [Aussehen]→ Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.\n\n>>Familiarname:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n>>Aussehen:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\nBei fehlendem Aussehen erhält das Familiar sein ursprüngliches Aussehen zurück.\n\n\n\n>>Beispiel:\n\n/fampro Garuda-Egi Topas-Karfunkel\n\nGibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.',
+        '/familiarprojektion, /fampro, /petmirage, /egimirage\n\nVERWENDUNG: /fampro [Familiarname] [Aussehen]→ Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.\n\n>>Familiarname:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n>>Aussehen:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\nBei fehlendem Aussehen erhält das Familiar sein ursprüngliches Aussehen zurück.\n\nBei fehlendem Unterkommando wird das Menü „Momentanes Aussehen deiner Familiare“ aufgerufen.\n\n\n\n>>Beispiel:\n\n/fampro Garuda-Egi Topas-Karfunkel\n\nGibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.\n\n/fampro Garuda-Egi\n\nGibt dem Garuda-Egi sein ursprüngliches Aussehen zurück.\n\n/fampro\n\nRuft das Menü „Momentanes Aussehen deiner Familiare“ auf.',
     },
     {
       ID: 34,
@@ -4357,6 +4609,33 @@ const data: MacrosData = {
       Alias: '/abenteurerpass',
       ShortAlias: '/meinpass',
       Description: '/abenteurerpass, /meinpass, /adventurerplate, /myplate\n\n→ Öffnet deinen Abenteurerpass.',
+    },
+    {
+      ID: 39,
+      Command: '/rclickpc',
+      ShortCommand: '',
+      Alias: '/rklickpc',
+      ShortAlias: '',
+      Description:
+        '/rklickpc, rclickpc\n\nVERWENDUNG:\n\n/rklickpc [Unterbefehl]\n\n→ Ändert die Einstellung für „Charaktere von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakterkonfiguration).\n\n>>Unterbefehle:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Aktiviert die Einstellung.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Deaktiviert die Einstellung.\n\nBei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.',
+    },
+    {
+      ID: 40,
+      Command: '/rclickbattlenpc',
+      ShortCommand: '',
+      Alias: '/rklickkampfnpc',
+      ShortAlias: '',
+      Description:
+        '/rklickkampfnpc, rclickbattlenpc\n\nVERWENDUNG:\n\n/rklickkampfnpc [Unterbefehl]\n\n→ Ändert die Einstellung für „Kampf-NPCs von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakterkonfiguration).\n\n>>Unterbefehle:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Aktiviert die Einstellung.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Deaktiviert die Einstellung.\n\nBei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.',
+    },
+    {
+      ID: 41,
+      Command: '/rclickminion',
+      ShortCommand: '',
+      Alias: '/rklickbegleiter',
+      ShortAlias: '',
+      Description:
+        '/rklickbegleiter, rclickminion\n\nVERWENDUNG:\n\n/rklickbegleiter [Unterbefehl]\n\n→ Ändert die Einstellung für „Begleiter von Rechtsklick-Auswahl ausschließen“ (Hauptmenü → Charakterkonfiguration).\n\n>>Unterbefehle:\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Aktiviert die Einstellung.\n\n　<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n　　Deaktiviert die Einstellung.\n\nBei fehlendem Unterbefehl wird die Einstellung auf den jeweils anderen Wert geändert.',
     },
     {
       ID: 91,
@@ -4774,7 +5053,7 @@ const data: MacrosData = {
       Alias: '/mark',
       ShortAlias: '',
       Description:
-        '/mark, /marking, /mk\n\nVERWENDUNG:\n\n/mark [Symbol] [Variable zur Zielbestimmung]\n\n→ Markiert ein Ziel mit einem Symbol.\n\n>>Symbole:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>att1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bind1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ignor1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  Wird keine Ziffer eingegeben, so wird automatisch die niedrigste unzugeordnete verwendet.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>kreis (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>circle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>kreuz (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cross<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>quadr (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>square<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>drei (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>triangle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>), <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>zurück<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Löscht die Markierung.\n\n  Bei fehlendem Unterbefehl wird das Markierungen-Menü geöffnet. Wird kein Ziel bestimmt, so wird das momentan anvisierte Ziel markiert.\n\n>>Beispiel:\n\n  /mk att2 <t>\n\nMarkiert das momentane Ziel mit dem Symbol 2 für „Angreifen“.',
+        '/mark, /marking, /mk\n\nVERWENDUNG:\n\n/mark [Symbol] [Variable zur Zielbestimmung]\n\n→ Markiert ein Ziel mit einem Symbol.\n\n>>Symbole:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>att1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>8<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bind1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ignor1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>-<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  Wird keine Ziffer eingegeben, so wird automatisch die niedrigste unzugeordnete verwendet.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>kreis (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>circle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>kreuz (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>cross<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>quadr (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>square<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>drei (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>triangle<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>), <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>zurück<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Löscht die Markierung.\n\n  Bei fehlendem Unterbefehl wird das Markierungen-Menü geöffnet. Wird kein Ziel bestimmt, so wird das momentan anvisierte Ziel markiert.\n\n>>Beispiel:\n\n  /mk att2 <t>\n\nMarkiert das momentane Ziel mit dem Symbol 2 für „Angreifen“.',
     },
     {
       ID: 157,
@@ -4954,7 +5233,7 @@ const data: MacrosData = {
       Alias: '/wegmark',
       ShortAlias: '/wmark',
       Description:
-        '/wegmark, /waymark, /wmark\n\nVERWENDUNG:\n\n/wmark [Symbolname] [Variable zur Zielbestimmung]\n\n→ Platziert eine Geländemarkierung am Standort des angegebenen Charakters (Symbolname erforderlich). Wird kein Ziel angegeben, ist die Markierung im Gelände platzierbar.\n\n>>Symbole:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>a<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>b<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>c<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>d<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>4<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\nSetzt/entfernt Markierung A, B, C, D, 1, 2, 3, 4. Ist das Symbol bereits vergeben, wird die Markierung entfernt, bei Angabe des Charakternamens überschrieben.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>), <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>zurück<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)\n\nEntfernt alle gesetzten Markierungen.\n\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>speichern 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>save 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)\n\nSpeichert die platzierten Markierungen in Slot 1-5.\n\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>wiederherstellen 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>preset 1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)\n\nStellt die gespeicherten Markierungen wieder her.\n\nBei fehlendem Symbolnamen wird eine noch unbenutzte Markierung (A→ 2) gesetzt. Sind alle bereits benutzt, kann das Kommando nicht ausgeführt werden.\n\n>>Beispiel:\n\n  /wmark a\n\nAktiviert den Boden-Zielmodus, um Markierung A zu setzen.\n\n  /wmark a <t>\n\nSetzt Markierung A am Standort des momentan anvisierten Charakters.',
+        '/wegmark, /waymark, /wmark\n\nVERWENDUNG:\n\n/wmark [Symbolname] [Variable zur Zielbestimmung]\n\n→ Platziert eine Geländemarkierung am Standort des angegebenen Charakters (Symbolname erforderlich). Wird kein Ziel angegeben, ist die Markierung im Gelände platzierbar.\n\n>>Symbole:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>a<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>b<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>c<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>d<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>1<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>2<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>3<UIGlow>01</UIGlow><UIForeground>01</UIForeground>, <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>4<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\nSetzt/entfernt Markierung A, B, C, D, 1, 2, 3, 4. Ist das Symbol bereits vergeben, wird die Markierung entfernt, bei Angabe des Charakternamens überschrieben.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>), <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>zurück<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)\n\nEntfernt alle gesetzten Markierungen.\n\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>speichern 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>save 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)\n\nSpeichert die platzierten Markierungen in Slot 1-30.\n\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>wiederherstellen 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>preset 1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)\n\nStellt die gespeicherten Markierungen wieder her.\n\nBei fehlendem Symbolnamen wird eine noch unbenutzte Markierung (A→ 2) gesetzt. Sind alle bereits benutzt, kann das Kommando nicht ausgeführt werden.\n\n>>Beispiel:\n\n  /wmark a\n\nAktiviert den Boden-Zielmodus, um Markierung A zu setzen.\n\n  /wmark a <t>\n\nSetzt Markierung A am Standort des momentan anvisierten Charakters.',
     },
     {
       ID: 179,
@@ -5208,7 +5487,7 @@ const data: MacrosData = {
       Alias: '/würfeln',
       ShortAlias: '',
       Description:
-        '/würfeln, /random\n\nVERWENDUNG:\n\n/würfeln [Unterbefehl]\n\n→  Eine Zahl zwischen 0 und 999 wird zufällig ausgewählt und als „Sagen“-Nachricht im Chatlog ausgegeben.\n\n\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[Obergrenze]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\nBeispiel:\n\n/würfeln 16\n\nEine Zahl zwischen 1 und 16 wird zufällig ausgewählt und als „Sagen“-Nachricht im Chatlog ausgegeben.',
+        '/würfeln, /random\n\nVERWENDUNG:\n\n/würfeln [Unterbefehl]\n\n→ Eine Zahl zwischen 0 und 999 wird zufällig ausgewählt und als „Sagen“-Nachricht im Chatlog ausgegeben.\n\n\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>[Obergrenze]<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\nBeispiel:\n\n/würfeln 16\n\nEine Zahl zwischen 1 und 16 wird zufällig ausgewählt und als „Sagen“-Nachricht im Chatlog ausgegeben.',
     },
     {
       ID: 212,
@@ -5279,7 +5558,7 @@ const data: MacrosData = {
       Alias: '/gruppenpose',
       ShortAlias: '',
       Description:
-        '/gruppenpose, /grouppose, /gpose\n\n→ Lässt Gruppen- und Allianzmitglieder sowie Begleiter, Reittiere und Mitstreiter gemeinsam posieren.\n\n>>Steuerung:\n\n<CommandIcon(10)/>, R, Num *, Mausrad-Klick\n\nKamera-Einstellungen anzeigen\n\n<CommandIcon(11)/>, Leertaste\n\nBlick zur Kamera/normal\n\n<CommandIcon(13)/>, X\n\nBewegung anhalten (alle)\n\n<CommandIcon(14)/>, Num 1\n\nBewegung anhalten (Ziel)\n\n<CommandIcon(15)/>,Num 2\n\nFokussierten Charakter wechseln\n\n<CommandIcon(6)/>, Tab, Umsch+Tab\n\nFokus wechseln\n\n<CommandIcon(20)/>, W, A, S, D, Q, E\n\nKameraposition ändern\n\n<Gui(16)/>, Z\n\nKameraposition zurücksetzen',
+        '/gruppenpose, /grouppose, /gpose\n\n→ Lässt Gruppen- und Allianzmitglieder sowie Begleiter, Reittiere und Mitstreiter gemeinsam posieren.\n\n>>Steuerung:\n\n<CommandIcon(10)/>, <If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, Num *, Mausrad-Klick\n\nKamera-Einstellungen anzeigen\n\n<CommandIcon(11)/>, Leertaste\n\nBlick zur Kamera/normal\n\n<CommandIcon(13)/>, <If(Equal(PlayerParameter(78),3))>x<Else/>X</If>\n\nBewegung anhalten (alle)\n\n<CommandIcon(14)/>, Num 1\n\nBewegung anhalten (Ziel)\n\n<CommandIcon(15)/>,Num 2\n\nFokussierten Charakter wechseln\n\n<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab, umsch+tab<Else/>Tab, Umsch+Tab</If>\n\nFokus wechseln\n\n<CommandIcon(20)/>, <If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>\n\nKameraposition ändern\n\n<Gui(16)/>, <If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>\n\nKameraposition zurücksetzen',
     },
     {
       ID: 220,
@@ -5297,7 +5576,7 @@ const data: MacrosData = {
       Alias: '/knips',
       ShortAlias: '',
       Description:
-        '/knips, /idlingcamera, /icam\n\nVERWENDUNG:\n\n/knips [Variable zur Zielbestimmung]\n\n→ Aktiviert den Schnappschuss-Sucher, der im 10-Sekunden-Abstand zufällige Naheinstellungen von Charakteren und Objekten der Umgebung zeigt. Bei Angabe eines Ziels fokussiert der Sucher darauf (ausgenommen einige unfokussierbare Charaktere).\n\n>>Steuerung:\n\n<CommandIcon(10)/>, R, Num *, Mausrad-Klick\n\nKamera-Einstellungen anzeigen\n\n<CommandIcon(8)/>, Num 0, Links-Klick\n\nKamerawinkel anhalten/weiter wechseln\n\n<CommandIcon(6)/>, Tab, Umsch+Tab\n\nSzene überspringen\n\n<CommandIcon(20)/>, W,A,S,D,Q,E\n\nKameraposition ändern\n\n<Gui(16)/>, Z\n\nKameraposition zurücksetzen\n\n>>Beispiel:\n\n/knips <t>\n\nZeigt im 10-Sekunden-Takt zufällige Kameraeinstellungen mit Fokus auf den anvisierten Charakter.',
+        '/knips, /idlingcamera, /icam\n\nVERWENDUNG:\n\n/knips [Variable zur Zielbestimmung]\n\n→ Aktiviert den Schnappschuss-Sucher, der im 10-Sekunden-Abstand zufällige Naheinstellungen von Charakteren und Objekten der Umgebung zeigt. Bei Angabe eines Ziels fokussiert der Sucher darauf (ausgenommen einige unfokussierbare Charaktere).\n\n>>Steuerung:\n\n<CommandIcon(10)/>, <If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, Num *, Mausrad-Klick\n\nKamera-Einstellungen anzeigen\n\n<CommandIcon(8)/>, Num 0, Links-Klick\n\nKamerawinkel anhalten/weiter wechseln\n\n<CommandIcon(6)/>, <If(Equal(PlayerParameter(78),3))>tab,umschalt+tab<Else/>Tab,Umschalt+Tab</If>\n\nSzene überspringen\n\n<CommandIcon(20)/>, <If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>\n\nKameraposition ändern\n\n<Gui(16)/>, <If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>\n\nKameraposition zurücksetzen\n\n>>Beispiel:\n\n/knips <t>\n\nZeigt im 10-Sekunden-Takt zufällige Kameraeinstellungen mit Fokus auf den anvisierten Charakter.',
     },
     {
       ID: 223,
@@ -5333,7 +5612,7 @@ const data: MacrosData = {
       Alias: '/egiprojektion',
       ShortAlias: '/egipro',
       Description:
-        '/egiprojektion, /egipro, /petmirage, /egimirage\n\nVERWENDUNG: /egipro [Egi-Name] [Aussehen]→ Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.\n\n\n\n>>Familiarname:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n>>Aussehen:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\nBei fehlendem Aussehen erhält das Familiar sein ursprüngliches Aussehen zurück.\n\n\n\n>>Beispiel:\n\n/egipro Garuda-Egi Topas-Karfunkel\n\nGibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.',
+        '/egiprojektion, /egipro, /petmirage, /egimirage\n\nVERWENDUNG: /egipro [Egi-Name] [Aussehen]→ Ändert deine Anzeigeeinstellung für das nächste gerufene Familiar. Keine Auswirkungen auf die Anzeige für andere Spieler. Bei PvP unwirksam.\n\n\n\n>>Familiarname:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Eos<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n>>Aussehen:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Smaragd-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Topas-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Rubin-Karfunkel<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Ifrit-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Titan-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Garuda-Egi<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>Selene<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n\nBei fehlendem Aussehen erhält das Familiar sein ursprüngliches Aussehen zurück.\n\nBei fehlendem Unterkommando wird das Menü „Momentanes Aussehen deiner Familiare“ aufgerufen.\n\n\n\n>>Beispiel:\n\n/fampro Garuda-Egi Topas-Karfunkel\n\nGibt dem Garuda-Egi das Aussehen eines Topas-Karfunkels.\n\n/fampro Garuda-Egi\n\nGibt dem Garuda-Egi sein ursprüngliches Aussehen zurück.\n\n/fampro\n\nRuft das Menü „Momentanes Aussehen deiner Familiare“ auf.',
     },
     {
       ID: 227,
@@ -5622,8 +5901,7 @@ const data: MacrosData = {
       ShortCommand: '/aaction',
       Alias: '/ergkmd',
       ShortAlias: '',
-      Description:
-        '/ergkmd, /additionalaction, /aaction\n\nVERWENDUNG:\n\n/ergkmd "[Kommando]" [Unterbefehl]\n\n→ Legt das angegebene Kommando als Ergänzendes Kommando fest. Kann nur von Sammlern verwendet werden.\n\n>>Unterbefehle:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Legt Ergänzendes Kommando fest.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Entfernt Ergänzendes Kommando.\n\nBei fehlendem Unterbefehl wird das Ergänzende Kommando festgelegt bzw. entfernt.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>zurück<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>clear<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Entfernt alle Ergänzenden Kommandos (Kommandoname entfällt).\n\n\n\n>>Beispiele:\n\n/ergkmd "Geodäsie"\n\nLegt Geodäsie in den Ergänzenden Kommandos an.\n\n/ergkmd zurück\n\nEntfernt alle Ergänzenden Kommandos.',
+      Description: '/ergkmd, /additionalaction, /aaction\n\n** Dieses Kommando wurde deaktiviert. **',
     },
     {
       ID: 273,
@@ -5676,7 +5954,7 @@ const data: MacrosData = {
       Alias: '/blaukommando',
       ShortAlias: '/blauk',
       Description:
-        '/blaukommando, /blauk, /blueaction\n\nVERWENDUNG:\n\n/blaukommando "[Kommando]" [Variable zur Zielbestimmung]\n\n→ Führt das genannte Blaumagie-Kommando auf das genannte Ziel aus. Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.\n\n>>Zielbestimmung:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><1>-<8><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf Gruppenmitglied 1 - 8 aus.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><t>, <target><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf das anvisierte Ziel aus. Bei Bodenziel-Kommandos wird das Kommando am Standort des Ziels ausgelöst.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bzaus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>gtoff<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Das Bodenziel-Kommando wird direkt ohne Starten des Bodenziel-Modus an der Stelle des Zeigers ausgelöst.\n\n\n\n>>Beispiel:\n\n/blaukommando Wasserkanone  <t>\n\nFührt das Kommando Wasserkanone auf das anvisierte Ziel aus.',
+        '/blaukommando, /blauk, /blueaction\n\nVERWENDUNG:\n\n/blaukommando "[Kommando]" [Variable zur Zielbestimmung]\n\n→ Führt das genannte Blaumagie-Kommando auf das genannte Ziel aus (außer die Umgebung gestattet die Ausführung nicht oder das Kommando wurde noch nicht erlernt). Kommandos mit Bodenzielmodus werden auf den Standort des angegebenen Ziels ausgeführt. Wenn kein Ziel angegeben ist, wird der Bodenzielmodus aktiviert.\n\n>>Zielbestimmung:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><1>-<8><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf Gruppenmitglied 1 - 8 aus.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow><t>, <target><UIGlow>01</UIGlow><UIForeground>01</UIForeground>  Führt das Kommando auf das anvisierte Ziel aus. Bei Bodenziel-Kommandos wird das Kommando am Standort des Ziels ausgelöst.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bzaus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>gtoff<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Das Bodenziel-Kommando wird direkt ohne Starten des Bodenziel-Modus an der Stelle des Zeigers ausgelöst.\n\n\n\n>>Beispiel:\n\n/blaukommando Wasserkanone  <t>\n\nFührt das Kommando Wasserkanone auf das anvisierte Ziel aus.',
     },
     {
       ID: 301,
@@ -5730,7 +6008,7 @@ const data: MacrosData = {
       Alias: '/autoziel',
       ShortAlias: '',
       Description:
-        '/autoziel, /autotarget\n\nVERWENDUNG:\n\n/autoziel [Unterbefehl]\n\n→ Aktiviert die Einstellung der Charakterkonfiguration „Automatisches Anvisieren, wenn kein Ziel anvisiert ist“.\n\n>>Unterbefehle:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Aktiviert automatisches Anvisieren.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Deaktiviert automatisches Anvisieren.\n\nBei fehlendem Unterbefehl wird die Einstellung gewechselt.',
+        '/autoziel, /autotarget\n\nVERWENDUNG:\n\n/autoziel [Unterbefehl]\n\n→ Aktiviert die Einstellung der Charakterkonfiguration „Automatisches Anvisieren bei erlittener Attacke“.\n\n>>Unterbefehle:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Aktiviert automatisches Anvisieren.\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Deaktiviert automatisches Anvisieren.\n\nBei fehlendem Unterbefehl wird die Einstellung gewechselt.',
     },
     {
       ID: 307,
@@ -5802,7 +6080,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        '/hud\n\nVERWENDUNG:\n\n/hud "[Element]" [Unterbefehl]\n\n→ Blendet das angegebene Element ein/aus.\n\n>>HUD-Elemente:\n\nDetails zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Kampfgeist, Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld)\n\n>>Unterbefehle:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element anzeigen\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element ausblenden\n\nBei fehlendem Unterbefehl wird die Einstellung gewechselt.\n\n\n\n>>Beispiel:\n\n/hud "Details zum Ziel"\n\nBlendet die Detailinformation zum gerade anvisierten Charakter bzw. Objekt ein/aus.',
+        '/hud\n\nVERWENDUNG:\n\n/hud "„[Element]"“ [Unterbefehl]\n\n→ Blendet das angegebene Element ein/aus.\n\n>>HUD-Elemente:\n\nDetails zum Ziel (ziel), LP des Ziels (ziellp), Fortschrittsbalken des Ziels (zielfort), Status des Ziels (zielstatus), Details zum Fokusziel (fokus), Gruppenliste (gruppe, gr), Gegnerliste (gegner, geg), Charakterparameter (char), Minikarte (mini, karte), Hauptmenü (haupt), Server-Info (server), Gil (gil), Inventarschema (inventar, inv), Aufgabenliste (aufgaben, aufg), Details zum Gegenstand (gegenstand, gegen), Details zum Kommando (kommando, komm), Limitrausch-Balken (limitrausch, limit), Routinebalken (routine, rou), Statuseffekte (status, buff), positive Status (statpos), ausgelöste Status (stataus), negative Status (statneg), andere Status (statand), Allianzliste 1 (Allianz 1, all1), Allianzliste 2 (Allianz 2, all2), Kommandomenü 1-10 (Komm1-10, komm1-10), Helfer-Kommandomenü (familiar, famil), Kreuz-Kommandomenü (Kreuzmenü, kreuz), Szenarioführer (sführ), Komprimierter Äther (kompäth), Crystalline Conflict: Fortschrittsbalken (CConflictFor, ccfor), Crystalline Conflict: Verbündete (CConflictVer, ccver), Crystalline Conflict: Gegner (CConflictGeg, ccgeg), Crystalline Conflict: Kampfverlauf (CConflictKam, cckam), Crystalline Conflict: Karte (CConflictKar, cckar), Kampfgeist (kampfg), PvP-Front: Punktzahl (PfrontPun), Stahlschwingen: Turm- und Kernbalken (stahlbalken), Stahlschwingen-Allianzliste (stahlallianz), Stahlschwingen-Verladestation (stahlstation), Stahlschwingen-Söldner (stahlsöld)\n\n>>Unterbefehle:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>ein<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>on<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element anzeigen\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>aus<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>off<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Element ausblenden\n\nBei fehlendem Unterbefehl wird die Einstellung gewechselt.\n\n\n\n>>Beispiel:\n\n/hud "„Details zum Ziel"“\n\nBlendet die Detailinformation zum gerade anvisierten Charakter bzw. Objekt ein/aus.',
     },
     {
       ID: 315,
@@ -8000,6 +8278,15 @@ const data: MacrosData = {
         '/verhöhnen, /deride\n\nVERWENDUNG:\n\n/verhöhnen [Unterbefehl]\n\n→ Du machst eine Geste der Verhöhnung.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
     },
     {
+      ID: 647,
+      Command: '/wow',
+      ShortCommand: '',
+      Alias: '/entzückt',
+      ShortAlias: '',
+      Description:
+        '/entzückt, /wow\n\nVERWENDUNG:\n\n/entzückt [Unterbefehl]\n\n→ Du zeigst mit Mimik und Gestik dein Entzücken.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
       ID: 648,
       Command: '/eatpumpkincookie',
       ShortCommand: '/cookie',
@@ -8016,6 +8303,222 @@ const data: MacrosData = {
       ShortAlias: '/ole',
       Description:
         '/oleoleoleole, /ole, /spirit\n\nVERWENDUNG:\n\n/oleoleoleole [Unterbefehl]\n\n→ Du gibst motivierende Zurufe von dir.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 650,
+      Command: '/magictrick',
+      ShortCommand: '',
+      Alias: '/zaubertrick',
+      ShortAlias: '',
+      Description:
+        '/zaubertrick, /magictrick\n\nVERWENDUNG:\n\n/zaubertrick [Unterbefehl]\n\n→ Du führst einen Zaubertrick vor.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 651,
+      Command: '/littleladiesdance',
+      ShortCommand: '/ladance',
+      Alias: '/prinzessinnentanz',
+      ShortAlias: '',
+      Description:
+        '/prinzessinnentanz, /littleladiesdance, /ladance\n\nVERWENDUNG:\n\n/prinzessinnentanz [Unterbefehl]\n\n→ Du tanzt wie auf dem Prinzessinnenfest.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 652,
+      Command: '/linkpearl',
+      ShortCommand: '',
+      Alias: '/kontaktperle',
+      ShortAlias: '',
+      Description:
+        '/kontaktperle, /linkpearl\n\nVERWENDUNG:\n\n/kontaktperle [Unterbefehl]\n\n→ Du tätigst einen Kontaktperlenanruf.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 653,
+      Command: '/earwiggle',
+      ShortCommand: '',
+      Alias: '/löffelwackeln',
+      ShortAlias: '',
+      Description:
+        '/löffelwackeln, /earwiggle\n\nVERWENDUNG:\n\n/löffelwackeln [Unterbefehl]\n\n→ Du wackelst vergnügt mit deinen Löffeln.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 657,
+      Command: '/frighten',
+      ShortCommand: '',
+      Alias: '/angstundschrecken',
+      ShortAlias: '/schrecken',
+      Description:
+        '/angstundschrecken, /schrecken, /frighten\n\nVERWENDUNG:\n\n/angstundschrecken [Unterbefehl]\n\n→ Du versuchst, alle um dich herum in Angst und Schrecken zu versetzen.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 658,
+      Command: '/adventoflight',
+      ShortCommand: '/advent',
+      Alias: '/heldenhafterauftritt',
+      ShortAlias: '/held',
+      Description:
+        '/heldenhafterauftritt, /held, /advent\n\nVERWENDUNG:\n\n/heldenhafterauftritt[Unterbefehl]\n\n→ Du zeigst deiner Umgebung, wer der Held ist.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 659,
+      Command: '/jumpforjoy1',
+      ShortCommand: '/jj1',
+      Alias: '/freudensprung1',
+      ShortAlias: '',
+      Description:
+        '/freudensprung1, /jumpforjoy1\n\nVERWENDUNG:\n\n/freudensprung1 [Unterbefehl]\n\n→ Du führst einen niedlichen Freudensprung aus.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 660,
+      Command: '/jumpforjoy2',
+      ShortCommand: '/jj2',
+      Alias: '/freudensprung2',
+      ShortAlias: '',
+      Description:
+        '/freudensprung2, /jumpforjoy2\n\nVERWENDUNG:\n\n/freudensprung2 [Unterbefehl]\n\n→ Du führst einen wohlwollenden Freudensprung aus.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 661,
+      Command: '/jumpforjoy3',
+      ShortCommand: '/jj3',
+      Alias: '/freudensprung3',
+      ShortAlias: '',
+      Description:
+        '/freudensprung3, /jumpforjoy3\n\nVERWENDUNG:\n\n/freudensprung3 [Unterbefehl]\n\n→ Du führst einen kraftvollen Freudensprung aus.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 662,
+      Command: '/jumpforjoy4',
+      ShortCommand: '/jj4',
+      Alias: '/freudensprung4',
+      ShortAlias: '',
+      Description:
+        '/freudensprung4, /jumpforjoy4\n\nVERWENDUNG:\n\n/freudensprung4 [Unterbefehl]\n\n→ Du führst einen ausgedehnten Freudensprung aus.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 663,
+      Command: '/jumpforjoy5',
+      ShortCommand: '/jj5',
+      Alias: '/freudensprung5',
+      ShortAlias: '',
+      Description:
+        '/freudensprung5, /jumpforjoy5\n\nVERWENDUNG:\n\n/freudensprung5 [Unterbefehl]\n\n→ Du führst einen stacheligen Freudensprung aus.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 664,
+      Command: '/handtoheart',
+      ShortCommand: '',
+      Alias: '/handaufdiebrust',
+      ShortAlias: '',
+      Description:
+        '/handaufdiebrust, /handonheart\n\nVERWENDUNG:\n\n/handaufdiebrust [Unterbefehl]\n\n→ Du legst die Hand auf die Brust.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 665,
+      Command: '/cheeronbright',
+      ShortCommand: '/cheerbright',
+      Alias: '/anfeuernweiß',
+      ShortAlias: '/anweiß',
+      Description:
+        '/anfeuernweiß, /anweiß, /cheerbright\n\nVERWENDUNG:\n\n/anfeuernweiß [Unterbefehl]\n\n→ Du feuerst mit weiß schimmernden Leuchtstäben an.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 666,
+      Command: '/cheerwaveviolet',
+      ShortCommand: '/cheerviolet',
+      Alias: '/anfeuernlila',
+      ShortAlias: '/anlila',
+      Description:
+        '/anfeuernlila, /anlila, /cheerviolet\n\nVERWENDUNG:\n\n/anfeuernlila [Unterbefehl]\n\n→ Du feuerst mit lila schimmernden Leuchtstäben an.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 667,
+      Command: '/cheerjumpgreen',
+      ShortCommand: '/cheergreen',
+      Alias: '/anfeuerngrün',
+      ShortAlias: '/angrün',
+      Description:
+        '/anfeuerngrün, /angrün, /cheergreen\n\nVERWENDUNG:\n\n/anfeuerngrün [Unterbefehl]\n\n→ Du feuerst mit grün schimmernden Leuchtstäben an.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 668,
+      Command: '/allsaintscharm',
+      ShortCommand: '',
+      Alias: '/verwandlungsmagie',
+      ShortAlias: '/verwand',
+      Description:
+        '/verwandlungsmagie, /verwand, /allsaintscharm\n\nVERWENDUNG:\n\n/verwandlungsmagie [Unterbefehl]\n\n→ Du führst einen Verwandlungszauber aus.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 670,
+      Command: '/lophop',
+      ShortCommand: '',
+      Alias: '/loporrittanz',
+      ShortAlias: '',
+      Description:
+        '/lophop, /loporrittanz\n\nVERWENDUNG:\n\n/lophop [Unterbefehl]\n\n→ Du hopst den Lophop.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 671,
+      Command: '/reference',
+      ShortCommand: '',
+      Alias: '/literaturvergleich',
+      ShortAlias: '/literatur',
+      Description:
+        '/literaturvergleich, /literatur, /reference\n\nVERWENDUNG:\n\n/literaturvergleich [Unterbefehl]\n\n→ Du vergleichst mit deiner Literatur.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 672,
+      Command: '/eatchicken',
+      ShortCommand: '',
+      Alias: '/backhähnchen',
+      ShortAlias: '/hähnchenessen',
+      Description:
+        '/backhähnchen, /hähnchenessen, /eatchicken\n\nVERWENDUNG:\n\n/backhähnchen [Unterbefehl]\n\n→ Du isst ein Stück Backhähnchen.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 673,
+      Command: '/sundering',
+      ShortCommand: '/exodus',
+      Alias: '/exodus',
+      ShortAlias: '',
+      Description:
+        '/exodus, /sundering\n\nVERWENDUNG:\n\n/exodus [Unterbefehl]\n\n→ Du entfesselst Exodus.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 674,
+      Command: '/slump',
+      ShortCommand: '',
+      Alias: '/kopfhängen',
+      ShortAlias: '',
+      Description:
+        '/kopfhängen, /slump\n\nVERWENDUNG:\n\n/kopfhängen [Unterbefehl]\n\n→ Du lässt betrübt den Kopf hängen.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 675,
+      Command: '/loveheart',
+      ShortCommand: '/heart',
+      Alias: '/herzpose',
+      ShortAlias: '',
+      Description:
+        '/herzpose, /loveheart, /heart\n\nVERWENDUNG:\n\n/herzpose [Unterbefehl]\n\n→ Du formst ein Herz mit deinen Händen.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 676,
+      Command: '/humbletriumph',
+      ShortCommand: '/waitforit',
+      Alias: '/kleinerstolz',
+      ShortAlias: '',
+      Description:
+        '/kleinerstolz, /humbletriumph, /waitforit\n\nVERWENDUNG:\n\n/kleinerstolz [Unterbefehl]\n\n→ Du strotzt vor Stolz - ein klein bisschen.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
+    },
+    {
+      ID: 677,
+      Command: '/victoryreveal',
+      ShortCommand: '/vreveal',
+      Alias: '/bohnensieg',
+      ShortAlias: '',
+      Description:
+        '/bohnensieg, /victoryreveal\n\nVERWENDUNG:\n\n/bohnensieg [Unterbefehl]\n\n→ Du feierst deinen Sieg mit einer gebührend bohnigen Pose.\n\n>>Unterbefehl:\n\n  <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>bw<UIGlow>01</UIGlow><UIForeground>01</UIForeground> (<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>motion<UIGlow>01</UIGlow><UIForeground>01</UIForeground>)  Führt nur die Bewegung aus. Bei fehlendem Unterbefehl wird sowohl die Bewegung ausgeführt als auch der Text angezeigt.',
     },
   ],
   fr: [
@@ -8305,7 +8808,7 @@ const data: MacrosData = {
       Alias: '/miragefamilier',
       ShortAlias: '/mirfam',
       Description:
-        '/miragefamilier, /mirfam, /petmirage\n\nUtilisation: /miragefamilier "[nom de familier]" "[apparence]"\n\nPermet de changer l\'apparence d\'un familier dès la prochaine invocation.\n\nCette commande n\'est pas effective dans les instances de combat JcJ.\n\n>> Noms des familiers:\n\nCarbuncle\n\nGaruda-Egi\n\nTitan-Egi\n\nIfrit-Egi\n\n>> Apparences:\n\nCarbuncle\n\nCarbuncle émeraude\n\nCarbuncle topaze\n\nCarbuncle rubis\n\nGaruda-Egi\n\nTitan-Egi\n\nIfrit-Egi\n\n* Aucune apparence spécifiée ou avec "annuler":\n\n  Rend au familier son apparence d\'origine.\n\n>> Exemple\n\n/miragefamilier "Garuda-Egi" "Carbuncle rubis"\n\nDonne l\'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.',
+        '/miragefamilier, /mirfam, /petmirage\n\nUtilisation: /miragefamilier "[nom de familier]" "[apparence]"\n\nPermet de changer l\'apparence d\'un familier dès la prochaine invocation.\n\nCette commande n\'est pas effective dans les instances de combat JcJ.\n\n>> Noms des familiers:\n\nCarbuncle\n\nGaruda-Egi\n\nTitan-Egi\n\nIfrit-Egi\n\nEos\n\n>> Apparences:\n\nCarbuncle\n\nCarbuncle émeraude\n\nCarbuncle topaze\n\nCarbuncle rubis\n\nGaruda-Egi\n\nTitan-Egi\n\nIfrit-Egi\n\nSelene\n\n* Aucune apparence spécifiée ou avec "annuler":\n\n  Rend au familier son apparence d\'origine.\n\nSi aucune sous-commande n\'est spécifiée, affiche la liste des apparences actuelles.\n\n>> Exemple\n\n/miragefamilier "Garuda-Egi" "Carbuncle rubis"\n\nDonne l\'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.\n\n/miragefamilier "Garuda-Egi"\n\nRend au familier son apparence d\'origine.\n\n/miragefamilier\n\nAffiche la liste des apparences actuelles.',
     },
     {
       ID: 34,
@@ -8349,6 +8852,33 @@ const data: MacrosData = {
       Alias: '/cartepersonnage',
       ShortAlias: '/cartep',
       Description: '/cartepersonnage, /cartep, /adventurerplate, /myplate\n\nAffiche la carte de personnage.',
+    },
+    {
+      ID: 39,
+      Command: '/rclickpc',
+      ShortCommand: '',
+      Alias: '/clicdroitpj',
+      ShortAlias: '/clicdpj',
+      Description:
+        "/clicdroitpj, /clicdpj, /rclickpc\n\nUtilisation: /clicdroitpj [sous-commande]\n\nPermet de désactiver le ciblage des personnages joueurs en cliquant sur le bouton droit de la souris.\n\n>> Sous-commandes:\n\nactivé (on) Désactive le ciblage par clic droit.\n\ndésactivé (off) Active le ciblage par clic droit.\n\nSi aucune sous-commande n'est spécifiée, alterne entre les deux options.",
+    },
+    {
+      ID: 40,
+      Command: '/rclickbattlenpc',
+      ShortCommand: '',
+      Alias: '/clicdroitpnj',
+      ShortAlias: '/clicdpnj',
+      Description:
+        "/clicdroitpnj, /clicdpnj, /rclickbattlenpc\n\nUtilisation: /clicdroitpnj [sous-commande]\n\nPermet de désactiver le ciblage des personnages non-joueurs dans les instances en cliquant sur le bouton droit de la souris.\n\n>> Sous-commandes:\n\nactivé (on) Désactive le ciblage par clic droit.\n\ndésactivé (off) Active le ciblage par clic droit.\n\nSi aucune sous-commande n'est spécifiée, alterne entre les deux options.",
+    },
+    {
+      ID: 41,
+      Command: '/rclickminion',
+      ShortCommand: '',
+      Alias: '/clicdroitmascotte',
+      ShortAlias: '/clicdmas',
+      Description:
+        "/clicdroitmascotte, /clicdmas, /rclickminion\n\nUtilisation: /clicdroitmascotte [sous-commande]\n\nPermet de désactiver le ciblage des mascottes en cliquant sur le bouton droit de la souris.\n\n>> Sous-commandes:\n\nactivé (on) Désactive le ciblage par clic droit.\n\ndésactivé (off) Active le ciblage par clic droit.\n\nSi aucune sous-commande n'est spécifiée, alterne entre les deux options.",
     },
     {
       ID: 91,
@@ -8765,7 +9295,7 @@ const data: MacrosData = {
       Alias: '/marquer',
       ShortAlias: '/signe',
       Description:
-        '/marquer, /signe, /marking, /mk\n\nUtilisation: /marquer [type]  [argument de ciblage]\n\nPermet de placer un signe sur la cible spécifiée ou le personnage ciblé si aucun argument n\'est saisi.\n\n>> Signes:\n\n"attaque1" jusqu\'à "attaque5" (attack1 à 5)\n\n"entrave1" jusqu\'à "entrave3" (bind1 à 3) \n\n"interdit1" jusqu\'à "interdit2" (ignore1 à 2)\n\n* 1 est le numéro par défaut si aucun chiffre n\'est spécifié.\n\ncercle (circle): signe en forme de cercle\n\ncroix (cross ou plus): signe en forme de croix\n\ncarré (square): signe en forme de carré\n\ntriangle: signe en forme de triangle\n\ndésactivé (off): retirer le signe\n\n* Si aucune sous-commande n\'est saisie, ouvre ou ferme le menu des signes.\n\n>> Exemples:\n\n/marquer interdit2 <t>\n\n  La cible reçoit le signe "2e cible interdite".\n\n/marquer entrave1\n\n  Le personnage ou ennemi ciblé reçoit le signe "1re cible à entraver".\n\nUne fois marquées, les cibles peuvent être désignées par les arguments <stop1>, <ignore1>, etc.',
+        '/marquer, /signe, /marking, /mk\n\nUtilisation: /marquer [type]  [argument de ciblage]\n\nPermet de placer un signe sur la cible spécifiée ou le personnage ciblé si aucun argument n\'est saisi.\n\n>> Signes:\n\n"attaque1" jusqu\'à "attaque8" (attack1 à 8)\n\n"entrave1" jusqu\'à "entrave3" (bind1 à 3) \n\n"ignore1" jusqu\'à "ignore2" (stop1 à 2)\n\n* Alterne entre les numéros 1 et 2 si aucun chiffre n\'est spécifié.\n\ncercle (circle): signe en forme de cercle\n\ncroix (cross ou plus): signe en forme de croix\n\ncarré (square): signe en forme de carré\n\ntriangle: signe en forme de triangle\n\ndésactivé (off): retirer le signe\n\n* Si aucune sous-commande n\'est saisie, ouvre ou ferme le menu des signes.\n\n>> Exemples:\n\n/marquer ignore2 <t>\n\n  La cible reçoit le signe "2e cible à ignorer".\n\n/marquer entrave1\n\n  Le personnage ou ennemi ciblé reçoit le signe "1re cible à entraver".\n\nUne fois marquées, les cibles peuvent être désignées par les arguments <stop1>, <ignore1>, etc.',
     },
     {
       ID: 157,
@@ -8944,7 +9474,7 @@ const data: MacrosData = {
       Alias: '/marqausol',
       ShortAlias: '/mqas',
       Description:
-        "/marqausol, /mqas, /waymark\n\nUtilisation: /marqausol [sous-commande] [argument de ciblage]\n\nPlace une marque au sol aux pieds de la cible spécifiée.\n\n>> Sous-commandes:\n\nSigne (A, B, C, D, 1, 2, 3 ou 4)   Place la marque au sol spécifiée. Si elle est déjà placée, la retire.\n\nSigne (A, B, C, D, 1, 2, 3 ou 4) [argument de ciblage]   Place la marque au sol spécifiée aux pieds de la cible désignée.\n\nSigne (A, B, C, D, 1, 2, 3 ou 4) sansciblesol  Place directement la marque au sol spécifiée là où se trouve le curseur, sans faire apparaître la cible au sol.\n\nannuler (désactivé)   Retire toutes les marques au sol placées.\n\nenregistrer (1-5)   Enregistre la disposition des marqueurs actuelle dans l'emplacement de sauvegarde spécifié.\n\nmode (1-5)   Charge la disposition des marqueurs enregistré dans l'emplacement de sauvegarde spécifié.\n\n* Si aucun nom de signe n'est saisi, place une marque inutilisée dans l'ordre alphabétique.\n\n* Si tous les signes sont déjà désignés, la commande est inutilisable.\n\n* Si l'argument de ciblage est spécifié, le nom de signe ne peut pas être omis.\n\n>> Exemples:\n\n/marqausol A\n\n  Fait apparaître une cible au sol pour placer la marque A.\n\n/marqausol A <t>\n\n  Fait apparaître la marque au sol A à l'endroit de la cible.\n\n/marqausol A sansciblesol\n\n  Fait apparaître la marque au sol A directement là où se trouve le curseur.",
+        "/marqausol, /mqas, /waymark\n\nUtilisation: /marqausol [sous-commande] [argument de ciblage]\n\nPlace une marque au sol aux pieds de la cible spécifiée.\n\n>> Sous-commandes:\n\nSigne (A, B, C, D, 1, 2, 3 ou 4)   Place la marque au sol spécifiée. Si elle est déjà placée, la retire.\n\nSigne (A, B, C, D, 1, 2, 3 ou 4) [argument de ciblage]   Place la marque au sol spécifiée aux pieds de la cible désignée.\n\nSigne (A, B, C, D, 1, 2, 3 ou 4) sansciblesol  Place directement la marque au sol spécifiée là où se trouve le curseur, sans faire apparaître la cible au sol.\n\nannuler (désactivé)   Retire toutes les marques au sol placées.\n\nenregistrer (1-30)   Enregistre la disposition des marqueurs actuelle dans l'emplacement de sauvegarde spécifié.\n\nmode (1-30)   Charge la disposition des marqueurs enregistré dans l'emplacement de sauvegarde spécifié.\n\n* Si aucun nom de signe n'est saisi, place une marque inutilisée dans l'ordre alphabétique, puis dans l'ordre numérique.\n\n* Si tous les signes sont déjà désignés, la commande est inutilisable.\n\n* Si l'argument de ciblage est spécifié, le nom de signe ne peut pas être omis.\n\n>> Exemples:\n\n/marqausol A\n\n  Fait apparaître une cible au sol pour placer la marque A.\n\n/marqausol A <t>\n\n  Fait apparaître la marque au sol A à l'endroit de la cible.\n\n/marqausol A sansciblesol\n\n  Fait apparaître la marque au sol A directement là où se trouve le curseur.",
     },
     {
       ID: 179,
@@ -9269,7 +9799,7 @@ const data: MacrosData = {
       Alias: '/posegroupe',
       ShortAlias: '/posegr',
       Description:
-        "/posegroupe, /posegr, /grouppose, /gpose\n\nFait une pose de groupe avec votre personnage et ceux d'autres joueurs.\n\n>> Fonctions:\n\nR, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.\n\nEspace/<CommandIcon(11)/>    Active/désactive l'orientation du regard vers la caméra.\n\n!/<CommandIcon(13)/>    Éclaire la position de la caméra.\n\n1/<CommandIcon(14)/>    Arrête tous les mouvements.\n\n2/<CommandIcon(15)/>    Arrête les mouvements de la cible.\n\nTab, Shift+Tab/<CommandIcon(6)/>    Change le personnage central.\n\nZ, Q, S, D, E/<CommandIcon(20)/>    Ajuste la position du cadre.\n\nW/<Gui(16)/>    Réinitialise la position du cadre.\n\n(Touches par défaut)",
+        "/posegroupe, /posegr, /grouppose, /gpose\n\nFait une pose de groupe avec votre personnage et ceux d'autres joueurs.\n\n>> Fonctions:\n\n<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.\n\n<If(Equal(PlayerParameter(78),3))>espace<Else/>Espace</If>/<CommandIcon(11)/>    Active/désactive l'orientation du regard vers la caméra.\n\n<If(Equal(PlayerParameter(78),3))>x<Else/>X</If>/<CommandIcon(13)/>    Éclaire la position de la caméra.\n\n1/<CommandIcon(14)/>    Arrête tous les mouvements.\n\n2/<CommandIcon(15)/>    Arrête les mouvements de la cible.\n\n<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>/<CommandIcon(6)/>    Change le personnage central.\n\n<If(Equal(PlayerParameter(78),3))>z,q,s,d,a,e<Else/>Z,Q,S,D,A,E</If>/<CommandIcon(20)/>    Ajuste la position du cadre.\n\n<If(Equal(PlayerParameter(78),3))>w<Else/>W</If>/<Gui(16)/>    Réinitialise la position du cadre.\n\n(Touches par défaut)",
     },
     {
       ID: 220,
@@ -9287,7 +9817,7 @@ const data: MacrosData = {
       Alias: '/cameradiaporama',
       ShortAlias: '/cdiapo',
       Description:
-        "/cameradiaporama, /cdiapo, /idlingcamera, /icam\n\nUtilisation: /cameradiaporama [argument de ciblage]\n\nActive la caméra diaporama.\n\nL'argument de ciblage peut être omis.\n\nSi une cible a été spécifiée, la caméra se concentre sur elle, la montrant sous divers angles.\n\nSi la cible spécifiée ne peut pas servir d'objet à cette fonction, une autre est déterminée aléatoirement.\n\n>> Fonctions:\n\nR, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.\n\n0 (clavier numérique)/clic gauche/<CommandIcon(8)/>    Met en pause/redémarre la caméra diaporama.\n\nTab, Shift+Tab/<CommandIcon(6)/>    Passe au plan suivant.\n\nA, Z, E, Q, S, D/<CommandIcon(20)/>    Ajuste la position du cadre.\n\nW/<Gui(16)/>    Réinitialise la position du cadre.\n\n>> Exemples:\n\n/cameradiaporama\n\n  Active la caméra diaporama sans objet spécifique.\n\n/cameradiaporama <t>\n\n  Active la caméra diaporama centrée sur la cible.\n\n(Touches par défaut)",
+        "/cameradiaporama, /cdiapo, /idlingcamera, /icam\n\nUtilisation: /cameradiaporama [argument de ciblage]\n\nActive la caméra diaporama.\n\nL'argument de ciblage peut être omis.\n\nSi une cible a été spécifiée, la caméra se concentre sur elle, la montrant sous divers angles.\n\nSi la cible spécifiée ne peut pas servir d'objet à cette fonction, une autre est déterminée aléatoirement.\n\n>> Fonctions:\n\n<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>, * (pavé numérique), clic molette/<CommandIcon(10)/>    Ouvre la fenêtre des paramètres de la caméra.\n\n0 (clavier numérique)/clic gauche/<CommandIcon(8)/>    Met en pause/redémarre la caméra diaporama.\n\n<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>/<CommandIcon(6)/>    Passe au plan suivant.\n\n<If(Equal(PlayerParameter(78),3))>z,q,s,d,a,e<Else/>Z,Q,S,D,A,E</If>/<CommandIcon(20)/>    Ajuste la position du cadre.\n\n<If(Equal(PlayerParameter(78),3))>w<Else/>W</If>/<Gui(16)/>    Réinitialise la position du cadre.\n\n>> Exemples:\n\n/cameradiaporama\n\n  Active la caméra diaporama sans objet spécifique.\n\n/cameradiaporama <t>\n\n  Active la caméra diaporama centrée sur la cible.\n\n(Touches par défaut)",
     },
     {
       ID: 223,
@@ -9323,7 +9853,7 @@ const data: MacrosData = {
       Alias: '/mirageegi',
       ShortAlias: '/miregi',
       Description:
-        '/mirageegi, /miregi, /egimirage\n\nUtilisation: /mirageegi "[nom d\'Egi]" "[apparence]"\n\nPermet de changer l\'apparence d\'un Egi dès la prochaine invocation.\n\nCette commande n\'est pas effective dans les instances de combat JcJ.\n\n>> Noms des Egi:\n\nCarbuncle\n\nGaruda-Egi\n\nTitan-Egi\n\nIfrit-Egi\n\n>> Apparences:\n\nCarbuncle\n\nCarbuncle émeraude\n\nCarbuncle topaze\n\nCarbuncle rubis\n\nGaruda-Egi\n\nTitan-Egi\n\nIfrit-Egi\n\n* Aucune apparence spécifiée ou avec "annuler":\n\n  Rend à l\'Egi son apparence d\'origine.\n\n>> Exemple\n\n/mirageegi "Garuda-Egi" "Carbuncle rubis"\n\nDonne l\'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.',
+        '/mirageegi, /miregi, /egiglamour\n\nUtilisation: /mirageegi "[nom d\'Egi]" "[apparence]"\n\nPermet de changer l\'apparence d\'un Egi dès la prochaine invocation.\n\nCette commande n\'est pas effective dans les instances de combat JcJ.\n\n>> Noms des Egi:\n\nCarbuncle\n\nGaruda-Egi\n\nTitan-Egi\n\nIfrit-Egi\n\nEos\n\n>> Apparences:\n\nCarbuncle\n\nCarbuncle émeraude\n\nCarbuncle topaze\n\nCarbuncle rubis\n\nGaruda-Egi\n\nTitan-Egi\n\nIfrit-Egi\n\nSelene\n\n* Aucune apparence spécifiée ou avec "annuler":\n\n  Rend à l\'Egi son apparence d\'origine.\n\nSi aucune sous-commande n\'est spécifiée, affiche la liste des apparences actuelles.\n\n>> Exemple\n\n/mirageegi "Garuda-Egi" "Carbuncle rubis"\n\nDonne l\'apparence de Carbuncle rubis à Garuda-Egi lors de sa prochaine invocation.\n\n/mirageegi "Garuda-Egi"\n\nRend à l\'Egi son apparence d\'origine.\n\n/mirageegi\n\nAffiche la liste des apparences actuelles.',
     },
     {
       ID: 227,
@@ -9615,7 +10145,7 @@ const data: MacrosData = {
       Alias: '/actionrôle',
       ShortAlias: '/talent',
       Description:
-        '/actionrôle, /talent, /additionalaction, /aaction\n\nUtilisation: /actionrôle "[nom d\'action]" [sous-commande]\n\n/talent "[nom d\'action]" [sous-commande]\n\nEnregistre l\'action indiquée dans la liste des talents (récolteurs uniquement).\n\n>> Sous-commandes:\n\nactivé (on)   Enregistre l\'action.\n\ndésactivé (off)   Retire l\'action.\n\n* Si aucune sous-commande n\'est saisie, alterne entre les deux options.\n\n>> Exemples:\n\n/actionrôle "Forestier" activé\n\n  Enregistre Forestier en tant que talent.\n\n/talent annuler\n\n  Retire toutes les actions enregistrées dans la liste des talents.',
+        '/actionrôle, /talent, /additionalaction, /aaction\n\nUtilisation: /actionrôle "[nom d\'action]" [sous-commande]\n\n/talent "[nom d\'action]" [sous-commande]\n\nEnregistrait autrefois l\'action indiquée dans la liste des talents (récolteurs uniquement).* Cette commande est actuellement indisponible en raison d\'un remaniement du système.',
     },
     {
       ID: 273,
@@ -9669,7 +10199,7 @@ const data: MacrosData = {
       Alias: '/actionmagiebleue',
       ShortAlias: '/mb',
       Description:
-        "/actionmagiebleue, /mb, /blueaction \"Nom de l'action de magie bleue\" [argument de ciblage]\n\nPermet d'effectuer une action de magie bleue sur la cible spécifiée.\n\nDans le cas d'une action utilisant une cible au sol, l'argument \"sansciblesol\" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.\n\n>> Exemple:\n\n/actionmagiebleue \"Tir d'eau\" <t>\n\n  Utilise l'action de magie bleue Tir d'eau sur la cible.",
+        "/actionmagiebleue, /mb, /blueaction \"Nom de l'action de magie bleue\" [argument de ciblage]\n\nPermet d'effectuer une action de magie bleue sur la cible spécifiée.\n\nDans le cas d'une action utilisant une cible au sol, l'argument \"sansciblesol\" peut être ajouté pour l'exécuter directement là où se trouve le curseur sans afficher la cible au sol.\n\nExécution impossible si l'action n'est pas apprise, ou si les conditions de son utilisation ne sont pas remplies.\n\n>> Exemple:\n\n/actionmagiebleue \"Tir d'eau\" <t>\n\n  Utilise l'action de magie bleue Tir d'eau sur la cible.",
     },
     {
       ID: 301,
@@ -9723,7 +10253,7 @@ const data: MacrosData = {
       Alias: '/ciblageauto',
       ShortAlias: '/cibauto',
       Description:
-        "/ciblageauto, /cibauto, /autotarget\n\nUtilisation: /ciblageauto [sous-commande]\n\nActive le ciblage automatique si aucune cible n'est sélectionnée.\n\n>> Sous-commandes:\n\nactivé (on)         Active le ciblage automatique.\n\ndésactivé (off)    Désactive le ciblage automatique.\n\nSi aucune sous-commande n'est spécifiée, alterne entre les deux options.",
+        "/ciblageauto, /cibauto, /autotarget\n\nUtilisation: /ciblageauto [sous-commande]\n\nCible automatiquement les ennemis attaquants.\n\n>> Sous-commandes:\n\nactivé (on)         Active le ciblage automatique.\n\ndésactivé (off)    Désactive le ciblage automatique.\n\nSi aucune sous-commande n'est spécifiée, alterne entre les deux options.",
     },
     {
       ID: 307,
@@ -9795,7 +10325,7 @@ const data: MacrosData = {
       Alias: '/ath',
       ShortAlias: '',
       Description:
-        "/ath, /hud\n\nUtilisation: /ath \"[composant]\" [sous-commande]\n\nAffiche ou cache le composant de l'interface spécifié.\n\n>> Composants:\n\nCible: Cible (target)\n\nCible - barre de PV: CiblePV (TargetInfo:HP)\n\nCible - barre de progression: CibleProg (TargetInfo:CastBar)\n\nCible - effets bénéfiques/néfastes: CibleEff (TargetInfo:Status)\n\nCible focalisée: focal (focus)\n\nÉquipe: équipe (plist)\n\nInimitié: inim (elist)\n\nAttributs: attrib (param)\n\nBoussole: bouss (mmap)\n\nMenu principal: mprinc (mmenu)\n\nInfos du serveur: infoserv (server)\n\nGils: gils (gil)\n\nInventaire: invent (bag)\n\nListe des objectifs: listeobj (todo)\n\nDétails de l'objet: détobjet (item)\n\nDétails de l'action: détaction (action)\n\nJauge de Transcendance: jgtrans (limit)\n\nExpérience: exp (ebar)\n\nÉtat - effets bénéfiques/néfastes: état (buff)\n\nÉtat - effets bénéfiques: ÉtatEffB (Status:Buff)\n\nÉtat - effets déclenchés: ÉtatEffDéc (Status:Trigger)\n\nÉtat - effets néfastes: ÉtatEffN (Status:Debuff)\n\nÉtat - effets divers: ÉtatEffD (Status:Other)\n\nListe d'alliance 1: alliance1 (alist1)\n\nListe d'alliance 2: alliance2 (alist2)\n\nBarres de raccourcis 1 à 10 (racc1 à racc10)\n\nBarre de raccourcis spéciale (raccsp)\n\nCroix de raccourcis (cxracc)\n\nGuide de l'épopée (Guideépopée)\n\nÉther compressé (Éthcomp)\n\nLe Front: jauge de combat (JaugeCombat)\n\nAiles rivales - liste d'alliance: ARalliance (RivalWings:Alliance)\n\nAiles rivales - gare: ARgare (RivalWings:Station)\n\nAiles rivales - mercenaire gobelin: ARmercenaire (RivalWings:Mercenary)\n\n>> Sous-commandes:\n\nactivé (on)        Affiche le composant spécifié.\n\ndésactivé (off)   Cache le composant spécifié.\n\n* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.\n\n>> Exemple:\n\n/ath infoserv\n\n  Affiche/cache l'élément Infos du serveur.",
+        "/ath, /hud\n\nUtilisation: /ath \"[composant]\" [sous-commande]\n\nAffiche ou cache le composant de l'interface spécifié.\n\n>> Composants:\n\nCible: Cible (target)\n\nCible - barre de PV: CiblePV (TargetInfo:HP)\n\nCible - barre de progression: CibleProg (TargetInfo:CastBar)\n\nCible - effets bénéfiques/néfastes: CibleEff (TargetInfo:Status)\n\nCible focalisée: focal (focus)\n\nÉquipe: équipe (plist)\n\nInimitié: inim (elist)\n\nAttributs: attrib (param)\n\nBoussole: bouss (mmap)\n\nMenu principal: mprinc (mmenu)\n\nInfos du serveur: infoserv (server)\n\nGils: gils (gil)\n\nInventaire: invent (bag)\n\nListe des objectifs: listeobj (todo)\n\nDétails de l'objet: détobjet (item)\n\nDétails de l'action: détaction (action)\n\nJauge de Transcendance: jgtrans (limit)\n\nExpérience: exp (ebar)\n\nÉtat - effets bénéfiques/néfastes: état (buff)\n\nÉtat - effets bénéfiques: ÉtatEffB (Status:Buff)\n\nÉtat - effets déclenchés: ÉtatEffDéc (Status:Trigger)\n\nÉtat - effets néfastes: ÉtatEffN (Status:Debuff)\n\nÉtat - effets divers: ÉtatEffD (Status:Other)\n\nListe d'alliance 1: alliance1 (alist1)\n\nListe d'alliance 2: alliance2 (alist2)\n\nBarres de raccourcis 1 à 10 (racc1 à racc10)\n\nBarre de raccourcis spéciale (raccsp)\n\nCroix de raccourcis (cxracc)\n\nGuide de l'épopée (Guideépopée)\n\nÉther compressé (Éthcomp)\n\nAiles rivales - mercenaire gobelin: ARmercenaire (RivalWings:Mercenary)\n\nCrystalline Conflict - jauge de progression: CConflictProgress (CrystallineConflict:ProgressGauge)\n\nCrystalline Conflict - alliés: CConflictEqu (CrystallineConflict:AllyInfo)\n\nCrystalline Conflict - adversaires: CConflictAdv (CrystallineConflict:EnemyInfo)\n\nCrystalline Conflict - log de combat: CConflictLog (CrystallineConflict:BattleLog)\n\nCrystalline Conflict - carte: CConflictCarte (CrystallineConflict:Map)\n\nLe Front - jauge de combat: JaugeCombat (Frontline:BattleGauge)\n\nLe Front - score: FrontScore (Frontline:Score)\n\nAiles rivales - liste d'alliance: ARalliance (RivalWings:Alliance)\n\nAiles rivales - gare: ARgare (RivalWings:Station)\n\n>> Sous-commandes:\n\nactivé (on)        Affiche le composant spécifié.\n\ndésactivé (off)   Cache le composant spécifié.\n\n* Si aucune sous-commande n'est spécifiée, alterne entre les deux options.\n\n>> Exemple:\n\n/ath infoserv\n\n  Affiche/cache l'élément Infos du serveur.",
     },
     {
       ID: 315,
@@ -11992,6 +12522,15 @@ const data: MacrosData = {
         "/montrersoncôtérebelle, /rebelle, /deride, /pagaga\n\nUtilisation: /montrersoncôtérebelle [sous-commande]\n\nMontre son côté rebelle.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
     },
     {
+      ID: 647,
+      Command: '/wow',
+      ShortCommand: '',
+      Alias: '/avoirdesétoilesdanslesyeux',
+      ShortAlias: '/fana',
+      Description:
+        "/avoirdesétoilesdanslesyeux, /fana, /wow\n\nUtilisation: /avoirdesétoilesdanslesyeux [sous-commande]\n\nA des étoiles dans les yeux.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
       ID: 648,
       Command: '/eatpumpkincookie',
       ShortCommand: '/cookie',
@@ -12008,6 +12547,222 @@ const data: MacrosData = {
       ShortAlias: '/apprécispectacle',
       Description:
         "/apprécierlespectacle, /apprécispectacle, /spirit\n\nUtilisation: /apprécierlespectacle [sous-commande]\n\nApprécie le spectacle.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 650,
+      Command: '/magictrick',
+      ShortCommand: '',
+      Alias: '/tourdemagie',
+      ShortAlias: '/tourmag',
+      Description:
+        "/tourdemagie, /tourmag, /magictrick\n\nUtilisation: /tourdemagie [sous-commande]\n\nExécute un tour de magie.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 651,
+      Command: '/littleladiesdance',
+      ShortCommand: '/ladance',
+      Alias: '/dansedesprincesses',
+      ShortAlias: '/dansprinc',
+      Description:
+        "/dansedesprincesses, /dansprinc, /littleladiesdance\n\nUtilisation: /dansedesprincesses [sous-commande]\n\nEffectue la danse des princesses.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 652,
+      Command: '/linkpearl',
+      ShortCommand: '',
+      Alias: '/appelvialinkperle',
+      ShortAlias: '/applink',
+      Description:
+        "/appelvialinkperle, /applink, /linkpearl\n\nUtilisation: /appelvialinkperle [sous-commande]\n\nPasse un appel via linkperle.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 653,
+      Command: '/earwiggle',
+      ShortCommand: '',
+      Alias: '/longuesoreillessoyeuses',
+      ShortAlias: '/longorsoy',
+      Description:
+        "/longuesoreillessoyeuses, /longorsoy, /earwiggle\n\nUtilisation: /longuesoreillessoyeuses [sous-commande]\n\nExhibe de longues oreilles soyeuses.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 657,
+      Command: '/frighten',
+      ShortCommand: '',
+      Alias: '/effrayer',
+      ShortAlias: '',
+      Description:
+        "/effrayer, /frighten\n\nUtilisation: /effrayer [sous-commande]\n\nPrend un air effrayant.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 658,
+      Command: '/adventoflight',
+      ShortCommand: '/advent',
+      Alias: '/envolhéroïque',
+      ShortAlias: '/envhér',
+      Description:
+        "/envolhéroïque, /envhér, /advent\n\nUtilisation: /envolhéroïque [sous-commande]\n\nS'envole dans les airs avant de retomber poing en avant.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 659,
+      Command: '/jumpforjoy1',
+      ShortCommand: '/jj1',
+      Alias: '/sautdejoie1',
+      ShortAlias: '/jj1',
+      Description:
+        "/sautdejoie1, /jj1\n\nUtilisation: /sautdejoie1 [sous-commande]\n\nSaute de joie avec un air attendrissant.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 660,
+      Command: '/jumpforjoy2',
+      ShortCommand: '/jj2',
+      Alias: '/sautdejoie2',
+      ShortAlias: '/jj2',
+      Description:
+        "/sautdejoie2, /jj2\n\nUtilisation: /sautdejoie2 [sous-commande]\n\nSaute de joie avec un air heureux.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 661,
+      Command: '/jumpforjoy3',
+      ShortCommand: '/jj3',
+      Alias: '/sautdejoie3',
+      ShortAlias: '/jj3',
+      Description:
+        "/sautdejoie3, /jj3\n\nUtilisation: /sautdejoie3 [sous-commande]\n\nSaute de joie avec un air déterminé.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 662,
+      Command: '/jumpforjoy4',
+      ShortCommand: '/jj4',
+      Alias: '/sautdejoie4',
+      ShortAlias: '/jj4',
+      Description:
+        "/sautdejoie4, /jj4\n\nUtilisation: /sautdejoie4 [sous-commande]\n\nSaute de joie avec un air détendu.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 663,
+      Command: '/jumpforjoy5',
+      ShortCommand: '/jj5',
+      Alias: '/sautdejoie5',
+      ShortAlias: '/jj5',
+      Description:
+        "/sautdejoie5, /jj5\n\nUtilisation: /sautdejoie5 [sous-commande]\n\nSaute de joie avec un air de pampa.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 664,
+      Command: '/handtoheart',
+      ShortCommand: '',
+      Alias: '/mainsurlapoitrine',
+      ShortAlias: '/mainpoit',
+      Description:
+        "/mainsurlapoitrine, /mainpoit, /handtoheart\n\nUtilisation: /mainsurlapoitrine [sous-commande]\n\nMet sa main sur sa poitrine.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 665,
+      Command: '/cheeronbright',
+      ShortCommand: '/cheerbright',
+      Alias: '/encouragerblanc',
+      ShortAlias: '',
+      Description:
+        "/encouragerblanc, /cheerbright, /cheeronbright\n\nUtilisation: /encouragerblanc [sous-commande]\n\nEncourage avec des bâtons lumineux blancs.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 666,
+      Command: '/cheerwaveviolet',
+      ShortCommand: '/cheerviolet',
+      Alias: '/encouragerviolet',
+      ShortAlias: '',
+      Description:
+        "/encouragerviolet, /cheerviolet, /cheerwaveviolet\n\nUtilisation: /encouragerviolet [sous-commande]\n\nEncourage avec des bâtons lumineux violets.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 667,
+      Command: '/cheerjumpgreen',
+      ShortCommand: '/cheergreen',
+      Alias: '/encouragervert',
+      ShortAlias: '',
+      Description:
+        "/encouragervert, /cheergreen, /cheerjumpgreen\n\nUtilisation: /encouragervert [sous-commande]\n\nEncourage avec des bâtons lumineux verts.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 668,
+      Command: '/allsaintscharm',
+      ShortCommand: '',
+      Alias: '/sortilègedelaveillée',
+      ShortAlias: '/sortveillée',
+      Description:
+        "/sortilègedelaveillée, /sortveillée\n\nUtilisation: /sortilègedelaveillée [sous-commande]\n\nLance un sortilège de la Veillée des saints.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 670,
+      Command: '/lophop',
+      ShortCommand: '',
+      Alias: '/dansedesloporrites',
+      ShortAlias: '/danslopo',
+      Description:
+        "/dansedesloporrites, /danslopo, /lophop\n\nUtilisation: /dansedesloporrites [sous-commande]\n\nEffectue la danse des Loporrites.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 671,
+      Command: '/reference',
+      ShortCommand: '',
+      Alias: '/seréférer',
+      ShortAlias: '/référence',
+      Description:
+        "/seréférer, /référence\n\nUtilisation: /seréférer [sous-commande]\n\nConsulte un ouvrage de référence.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 672,
+      Command: '/eatchicken',
+      ShortCommand: '',
+      Alias: '/mangerdupouletfrit',
+      ShortAlias: '/mangpoul',
+      Description:
+        "/mangerdupouletfrit, /mangpoul, /eatchicken\n\nUtilisation: /mangerdupouletfrit [sous-commande]\n\nMange du poulet frit.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 673,
+      Command: '/sundering',
+      ShortCommand: '/exodus',
+      Alias: '/exode',
+      ShortAlias: '',
+      Description:
+        "/exode, /sundering, /exodus\n\nUtilisation: /exode [sous-commande]\n\nFait une démonstration du sort Exode.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 674,
+      Command: '/slump',
+      ShortCommand: '',
+      Alias: '/êtreaccablé',
+      ShortAlias: '/accablé',
+      Description:
+        "/êtreaccablé, /accablé, /slump\n\nUtilisation: /êtreaccablé [sous-commande]\n\nEst accablé.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 675,
+      Command: '/loveheart',
+      ShortCommand: '/heart',
+      Alias: '/poseencoeur',
+      ShortAlias: '/coeur',
+      Description:
+        "/poseencoeur, /coeur, /loveheart, /heart\n\nUtilisation: /poseencoeur [sous-commande]\n\nFait la pose en cœur.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 676,
+      Command: '/humbletriumph',
+      ShortCommand: '/waitforit',
+      Alias: '/posedufanfaron',
+      ShortAlias: '/fanfaron',
+      Description:
+        "/posedufanfaron, /fanfaron, /humbletriumph, /waitforit\n\nUtilisation: /posedufanfaron [sous-commande]\n\nFait la pose du fanfaron.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
+    },
+    {
+      ID: 677,
+      Command: '/victoryreveal',
+      ShortCommand: '/vreveal',
+      Alias: '/célébrationdeharicot',
+      ShortAlias: '/célébharicot',
+      Description:
+        "/célébrationdeharicot, /célébharicot, /victoryreveal, /vreveal\n\nUtilisation: /célébrationdeharicot [sous-commande]\n\nExécute une célébration de haricot.\n\n>> Sous-commande:\n\nanimation (motion)   Exécute uniquement l'animation.\n\nSi aucune sous-commande n'est spécifiée, le message apparaît en même temps que l'animation.",
     },
   ],
   ja: [
@@ -12294,7 +13049,7 @@ const data: MacrosData = {
       Alias: '/petmirage',
       ShortAlias: '',
       Description:
-        '/petmirage(/egimirage) ペットの名前 見た目\n\n次以降に召喚するペットの見た目を変更する。\n\nただし、PvPコンテンツ内では無効。\n\n>>ペットの名前\n\nカーバンクル\n\nガルーダ・エギ\n\nタイタン・エギ\n\nイフリート・エギ\n\n>>見た目\n\nカーバンクル\n\nカーバンクル・エメラルド\n\nカーバンクル・トパーズ\n\nカーバンクル・ルビー\n\nイフリート・エギ\n\nタイタン・エギ\n\nガルーダ・エギ\n\n※設定ペット名省略(clear)\n\n　…ペットの見た目を元に戻す。\n\n\n\n実行例\n\n/petmirage ガルーダ・エギ カーバンクル・ルビー\n\n　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。',
+        '/petmirage(/egimirage) ペットの名前 見た目\n\n次以降に召喚するペットの見た目を変更する。\n\nただし、PvPコンテンツ内では無効。\n\n>>ペットの名前\n\nカーバンクル\n\nガルーダ・エギ\n\nタイタン・エギ\n\nイフリート・エギ\n\nフェアリー・エオス\n\n>>見た目\n\nカーバンクル\n\nカーバンクル・エメラルド\n\nカーバンクル・トパーズ\n\nカーバンクル・ルビー\n\nイフリート・エギ\n\nタイタン・エギ\n\nガルーダ・エギ\n\nフェアリー・セレネ\n\n※設定ペット名省略(clear)\n\n　…ペットの見た目を元に戻す。\n\n※サブコマンド省略\n\n　…ペットの見た目の設定リストを出力する。\n\n\n\n実行例\n\n/petmirage ガルーダ・エギ カーバンクル・ルビー\n\n　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。\n\n/petmirage ガルーダ・エギ\n\n　…ガルーダ・エギの見た目を元に戻す。\n\n/petmirage\n\n　…ペットの見た目の設定リストを出力する。',
     },
     {
       ID: 34,
@@ -12338,6 +13093,33 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description: '/adventurerplate(/myplate)\n\n自分のアドベンチャラープレートを開く。',
+    },
+    {
+      ID: 39,
+      Command: '/rclickpc',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/rclickpc サブコマンド\n\nキャラクターコンフィグ「右クリックでのPC選択を除外する」を設定する。\n\n>>サブコマンド\n\non\n\n　…除外設定を有効にする。\n\noff\n\n　…除外設定を無効にする。\n\n※サブコマンド省略\n\n　…有効／無効のスイッチ切り替え',
+    },
+    {
+      ID: 40,
+      Command: '/rclickbattlenpc',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/rclickbattlenpc サブコマンド\n\nキャラクターコンフィグ「右クリックでの敵・味方NPC選択を除外する」を設定する。\n\n>>サブコマンド\n\non\n\n　…除外設定を有効にする。\n\noff\n\n　…除外設定を無効にする。\n\n※サブコマンド省略\n\n　…有効／無効のスイッチ切り替え',
+    },
+    {
+      ID: 41,
+      Command: '/rclickminion',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/rclickminion サブコマンド\n\nキャラクターコンフィグ「右クリックでのミニオン選択を除外する」を設定する。\n\n>>サブコマンド\n\non\n\n　…除外設定を有効にする。\n\noff\n\n　…除外設定を無効にする。\n\n※サブコマンド省略\n\n　…有効／無効のスイッチ切り替え',
     },
     {
       ID: 91,
@@ -12751,7 +13533,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        '/marking(/mk) タイプ 代名詞\n\n指定したキャラクターに指定したタイプのマーカーを設定する。代名詞を省略した場合は、現在ターゲット中のキャラクターを指定する。\n\n>>タイプ\n\n攻撃1～5(attack1～5)\n\n　…攻撃1～5を設定。単に“攻撃”は未使用の一番小さい番号で攻撃を設定する。\n\n足止め1～3(bind1～3)\n\n　…足止め1～3を設定。単に“足止め”は未使用の一番小さい番号で足止めを設定する。\n\n禁止1～2(stop1～2)\n\n　…禁止1～2を設定。単に“禁止”は未使用の一番小さい番号で禁止を設定する。\n\n汎用シカク(square)\n\n　…汎用シカクを設定する。\n\n汎用マル(circle)\n\n　…汎用マルを設定する。\n\n汎用プラス(plus)\n\n　…汎用プラスを設定する。\n\n汎用サンカク(triangle)\n\n　…汎用サンカクを設定する。\n\nclear(off) \n\n　…設定されたマーカーを解除する。\n\n※サブコマンド省略\n\n　…マーカーメニューを開く。\n\n\n\n実行例\n\n/marking 攻撃3 <t>\n\n　…選択した対象に「攻撃3」のマーカーを設定する。',
+        '/marking(/mk) タイプ 代名詞\n\n指定したキャラクターに指定したタイプのマーカーを設定する。代名詞を省略した場合は、現在ターゲット中のキャラクターを指定する。\n\n>>タイプ\n\n攻撃1～8(attack1～8)\n\n　…攻撃1～8を設定。単に“攻撃”は未使用の一番小さい番号で攻撃を設定する。\n\n足止め1～3(bind1～3)\n\n　…足止め1～3を設定。単に“足止め”は未使用の一番小さい番号で足止めを設定する。\n\n禁止1～2(stop1～2)\n\n　…禁止1～2を設定。単に“禁止”は未使用の一番小さい番号で禁止を設定する。\n\n汎用シカク(square)\n\n　…汎用シカクを設定する。\n\n汎用マル(circle)\n\n　…汎用マルを設定する。\n\n汎用プラス(plus)\n\n　…汎用プラスを設定する。\n\n汎用サンカク(triangle)\n\n　…汎用サンカクを設定する。\n\nclear(off) \n\n　…設定されたマーカーを解除する。\n\n※サブコマンド省略\n\n　…マーカーメニューを開く。\n\n\n\n実行例\n\n/marking 攻撃3 <t>\n\n　…選択した対象に「攻撃3」のマーカーを設定する。',
     },
     {
       ID: 157,
@@ -12930,7 +13712,7 @@ const data: MacrosData = {
       Alias: '/fieldmarking',
       ShortAlias: '/fmk',
       Description:
-        '/fieldmarking(/fmk,/waymark,/wmark) サブコマンド\n\nフィールドマーカーを設置する。\n\n\n\n>>サブコマンド\n\n“マーカー名(A,B,C,D,1,2,3,4)”\n\n　…マーカーを設置する。設置済みの場合は解除し、代名詞指定の場合は上書きする。\n\n“マーカー名(A,B,C,D,1,2,3,4)” 代名詞\n\n　…マーカーを指定対象の足元に直接設置する。\n\n“マーカー名(A,B,C,D,1,2,3,4)” gtoff\n\n　…マーカーを現在のカーソル位置に直接設置する\n\nclear(off)\n\n　…マーカーをすべて解除する。\n\nsave スロット番号(1-5)\n\n　…設置状態のマーカー情報を保存する。\n\npreset スロット番号(1-5)\n\n　…保存されたマーカー情報を復元する。\n\n※マーカー名省略\n\n　…Aから順番に、未使用のマーカーを設置する。すべてのマーカーが設置済みの場合は使用できない。代名詞が指定されている場合は、マーカー名は省略できない。\n\n\n\n実行例\n\n/fieldmarking A\n\n　…「マーカーA」を設置するグラウンドターゲットモードを起動する。\n\n/fieldmarking A <t>\n\n　…「マーカーA」を選択した対象の位置に設置する。\n\n/fieldmarking A gtoff\n\n　…「マーカーA」を現在のカーソル位置に設置する。',
+        '/fieldmarking(/fmk,/waymark,/wmark) サブコマンド\n\nフィールドマーカーを設置する。\n\n\n\n>>サブコマンド\n\n“マーカー名(A,B,C,D,1,2,3,4)”\n\n　…マーカーを設置する。設置済みの場合は解除し、代名詞指定の場合は上書きする。\n\n“マーカー名(A,B,C,D,1,2,3,4)” 代名詞\n\n　…マーカーを指定対象の足元に直接設置する。\n\n“マーカー名(A,B,C,D,1,2,3,4)” gtoff\n\n　…マーカーを現在のカーソル位置に直接設置する\n\nclear(off)\n\n　…マーカーをすべて解除する。\n\nsave スロット番号(1-30)\n\n　…設置状態のマーカー情報を保存する。\n\npreset スロット番号(1-30)\n\n　…保存されたマーカー情報を復元する。\n\n※マーカー名省略\n\n　…Aから順番に、未使用のマーカーを設置する。すべてのマーカーが設置済みの場合は使用できない。代名詞が指定されている場合は、マーカー名は省略できない。\n\n\n\n実行例\n\n/fieldmarking A\n\n　…「マーカーA」を設置するグラウンドターゲットモードを起動する。\n\n/fieldmarking A <t>\n\n　…「マーカーA」を選択した対象の位置に設置する。\n\n/fieldmarking A gtoff\n\n　…「マーカーA」を現在のカーソル位置に設置する。',
     },
     {
       ID: 179,
@@ -13248,7 +14030,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        '/grouppose(/gpose)\n\nグループポーズ（フォトモード）を実行する。\n\n\n\n>>機能内操作\n\nカメラ設定ウィンドウの表示\n\n　…<CommandIcon(10)/>／【R】キー、テンキー【*】／ホイールボタン\n\nカメラ方向への視線送りON/OFF\n\n　…<CommandIcon(11)/>／【Space】キー\n\nカメラ位置に照明を設置\n\n　…<CommandIcon(13)/>／【X】キー\n\nモーションストップ（全体）\n\n　…<CommandIcon(14)/>／【1】キー\n\nモーションストップ（選択対象）\n\n　…<CommandIcon(15)/>／【2】キー\n\n注視キャラクターの切り替え\n\n　…<CommandIcon(6)/>／【Tab,Shift+Tab】キー\n\nカメラの操作\n\n　…<CommandIcon(20)/>／【W,A,S,D,Q,E】キー\n\nカメラリセット\n\n　…<Gui(16)/>／【Z】キー ',
+        '/grouppose(/gpose)\n\nグループポーズ（フォトモード）を実行する。\n\n\n\n>>機能内操作\n\nカメラ設定ウィンドウの表示\n\n　…<CommandIcon(10)/>／【<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>】キー、テンキー【*】／ホイールボタン\n\nカメラ方向への視線送りON/OFF\n\n　…<CommandIcon(11)/>／【<If(Equal(PlayerParameter(78),3))>space<Else/>Space</If>】キー\n\nカメラ位置に照明を設置\n\n　…<CommandIcon(13)/>／【<If(Equal(PlayerParameter(78),3))>x<Else/>X</If>】キー\n\nモーションストップ（全体）\n\n　…<CommandIcon(14)/>／【1】キー\n\nモーションストップ（選択対象）\n\n　…<CommandIcon(15)/>／【2】キー\n\n注視キャラクターの切り替え\n\n　…<CommandIcon(6)/>／【<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>】キー\n\nカメラの操作\n\n　…<CommandIcon(20)/>／【<If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>】キー\n\nカメラリセット\n\n　…<Gui(16)/>／【<If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>】キー ',
     },
     {
       ID: 220,
@@ -13266,7 +14048,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        '/idlingcamera(/icam) 代名詞\n\n景観カメラを実行する。\n\n代名詞は省略可能。\n\n代名詞を指定した場合は、被写体を指定したキャラクターに絞ってカメラアングルを切り替える。指定したキャラクターが被写体指定できない対象だった場合は被写体をランダムに選択する。\n\n\n\n>>機能内操作\n\nカメラ設定ウィンドウの表示\n\n　…<CommandIcon(10)/>／【R】キー、テンキー【*】／ホイールボタン\n\nカメラアングル切り替え一時停止・再開\n\n　…<CommandIcon(8)/>／テンキー【0】／左クリック \n\nシーンスキップ\n\n　…<CommandIcon(6)/>／【Tab,Shift+Tab】キー\n\nカメラの操作\n\n　…<CommandIcon(20)/>／【W,A,S,D,Q,E】キー\n\nカメラリセット\n\n　…<Gui(16)/>／【Z】キー\n\n\n\n実行例\n\n/idlingcamera\n\n　…被写体をランダムに選択して実行する。\n\n/idlingcamera <t>\n\n　…被写体を指定した対象に絞って実行する。',
+        '/idlingcamera(/icam) 代名詞\n\n景観カメラを実行する。\n\n代名詞は省略可能。\n\n代名詞を指定した場合は、被写体を指定したキャラクターに絞ってカメラアングルを切り替える。指定したキャラクターが被写体指定できない対象だった場合は被写体をランダムに選択する。\n\n\n\n>>機能内操作\n\nカメラ設定ウィンドウの表示\n\n　…<CommandIcon(10)/>／【<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>】キー、テンキー【*】／ホイールボタン\n\nカメラアングル切り替え一時停止・再開\n\n　…<CommandIcon(8)/>／テンキー【0】／左クリック \n\nシーンスキップ\n\n　…<CommandIcon(6)/>／【<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>】キー\n\nカメラの操作\n\n　…<CommandIcon(20)/>／【<If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>】キー\n\nカメラリセット\n\n　…<Gui(16)/>／【<If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>】キー\n\n\n\n実行例\n\n/idlingcamera\n\n　…被写体をランダムに選択して実行する。\n\n/idlingcamera <t>\n\n　…被写体を指定した対象に絞って実行する。',
     },
     {
       ID: 223,
@@ -13302,7 +14084,7 @@ const data: MacrosData = {
       Alias: '/egimirage',
       ShortAlias: '',
       Description:
-        '/egimirage(/petmirage) ペットの名前 見た目\n\n次以降に召喚するペットの見た目を変更する。\n\nただし、PvPコンテンツ内では無効。\n\n>>ペットの名前\n\nカーバンクル\n\nガルーダ・エギ\n\nタイタン・エギ\n\nイフリート・エギ\n\n>>見た目\n\nカーバンクル\n\nカーバンクル・エメラルド\n\nカーバンクル・トパーズ\n\nカーバンクル・ルビー\n\nイフリート・エギ\n\nタイタン・エギ\n\nガルーダ・エギ\n\n※設定ペット名省略(clear)\n\n　…ペットの見た目を元に戻す。\n\n\n\n実行例\n\n/egimirage ガルーダ・エギ カーバンクル・ルビー\n\n　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。',
+        '/egimirage(/petmirage) ペットの名前 見た目\n\n次以降に召喚するペットの見た目を変更する。\n\nただし、PvPコンテンツ内では無効。\n\n>>ペットの名前\n\nカーバンクル\n\nガルーダ・エギ\n\nタイタン・エギ\n\nイフリート・エギ\n\nフェアリー・エオス\n\n>>見た目\n\nカーバンクル\n\nカーバンクル・エメラルド\n\nカーバンクル・トパーズ\n\nカーバンクル・ルビー\n\nイフリート・エギ\n\nタイタン・エギ\n\nガルーダ・エギ\n\nフェアリー・セレネ\n\n※設定ペット名省略(clear)\n\n　…ペットの見た目を元に戻す。\n\n※サブコマンド省略\n\n　…ペットの見た目の設定リストを出力する。\n\n\n\n実行例\n\n/egimirage ガルーダ・エギ カーバンクル・ルビー\n\n　…ガルーダ・エギの見た目をカーバンクル・ルビーに変更する。\n\n/egimirage ガルーダ・エギ\n\n　…ガルーダ・エギの見た目を元に戻す。\n\n/egimirage\n\n　…ペットの見た目の設定リストを出力する。',
     },
     {
       ID: 227,
@@ -13589,7 +14371,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        '/additionalaction(/aaction) “アクション名” サブコマンド\n\n指定したアクションを「アディショナルアクション」として設定する。ギャザラーのみ使用可能。アクション名の代わりに“clear”を指定した場合、現在設定しているすべての選択アクションを解除する。\n\n>>サブコマンド\n\non \n\n　…指定したアクションを設定する。\n\noff \n\n　…指定したアクションを解除する。\n\n※サブコマンド省略\n\n　…設定／解除のスイッチ切り替え。\n\n\n\n実行例\n\n/additionalaction トライアングレート on\n\n　…アディショナルアクションに「トライアングレート」を設定する。\n\n/additionalaction clear\n\n　…アディショナルアクションに設定したアクションを解除する。',
+        '/additionalaction(/aaction)\n\nアディショナルアクションを設定できると信じられていた機能。\n\n※システム改修により現在は利用できません。',
     },
     {
       ID: 273,
@@ -13643,7 +14425,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        '/blueaction “青魔法名” 代名詞\n\n指定したキャラクターに指定した青魔法を実行する。\n\n\n\nグラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。\n\n代名詞\n\n　…グラウンドターゲットモードをスキップして指定した対象に向けてグラウンドターゲットアクションを直接実行する。\n\ngtoff\n\n　…グラウンドターゲットモードをスキップしてアクションを直接実行する。\n\n\n\n実行例\n\n/blueaction 水鉄砲 <t>\n\n　…選択した対象に「水鉄砲」を実行する。',
+        '/blueaction “青魔法名” 代名詞\n\n指定したキャラクターに指定した青魔法を実行する。アクションが行えない環境のとき、あるいはラーニングしていないアクションのときは実行できない。\n\n\n\nグラウンドターゲットを用いるアクションの場合、アクション名の後に以下のサブコマンド設定をすることで操作モードの制御を指定することができる。\n\n代名詞\n\n　…グラウンドターゲットモードをスキップして指定した対象に向けてグラウンドターゲットアクションを直接実行する。\n\ngtoff\n\n　…グラウンドターゲットモードをスキップしてアクションを直接実行する。\n\n\n\n実行例\n\n/blueaction 水鉄砲 <t>\n\n　…選択した対象に「水鉄砲」を実行する。',
     },
     {
       ID: 301,
@@ -13697,7 +14479,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        '/autotarget サブコマンド\n\nキャラクターコンフィグ「未ターゲット時の自動ターゲットを有効にする」を設定する。\n\n>>サブコマンド\n\non \n\n　…有効にする。\n\noff \n\n　…無効にする。\n\n※サブコマンド省略\n\n　…有効／無効のスイッチ切り替え',
+        '/autotarget サブコマンド\n\nキャラクターコンフィグ「敵対アクションを実行された時に実行対象を自動選択する」を設定する。\n\n>>サブコマンド\n\non \n\n　…有効にする。\n\noff \n\n　…無効にする。\n\n※サブコマンド省略\n\n　…有効／無効のスイッチ切り替え',
     },
     {
       ID: 307,
@@ -13769,7 +14551,7 @@ const data: MacrosData = {
       Alias: '',
       ShortAlias: '',
       Description:
-        '/hud “HUD名” サブコマンド\n\n指定したHUDの表示／非表示を設定する。\n\n>>HUD名\n\nターゲット情報(TargetInfo,target)\n\nターゲット情報：HPバー(TargetInfo:HP)\n\nターゲット情報：キャストバー(TargetInfo:CastBar)\n\nターゲット情報：バフ・デバフ(TargetInfo:Status)\n\nフォーカスターゲット情報(FocusTarget,focus)\n\nパーティリスト(PartyList,party)\n\n敵対リスト(EnemyList,enemy)\n\nキャラクターパラメータ(MyParam,param)\n\nナビマップ(NaviMap,navi)\n\nメインコマンド(MainCommand,main)\n\n基本情報(GeneralInfo,dtr)\n\n所持金(CurrencyStatus,gil)\n\n装備・所持品サイン(ItemSign,bag)\n\n目的リスト/コンテンツ情報(ToDoList,todo)\n\nアイテム詳細(ItemHelp,item)\n\nアクション詳細(ActionHelp,action)\n\nリミットゲージ(LimitBreak,limit)\n\n経験値バー(ExpBar,exp)\n\nバフ・デバフステータス情報(BuffDebuffStatus,buff)\n\nステータス情報：バフ(Status:Buff)\n\nステータス情報：トリガー(Status:Trigger)\n\nステータス情報：デバフ(Status:Debuff)\n\nステータス情報：その他バフ(Status:Other)\n\nアライアンスリスト1(AllianceList1,alist1)\n\nアライアンスリスト2(AllianceList2,alist2)\n\nホットバー 1～10(Hotbar1～10)\n\nEXホットバー(HotbarEx)\n\nクロスホットバー(Crosshotbar)\n\nメインクエストガイド(ScenarioGuide)\n\n高圧エーテル(CompressedAether)\n\nフロントライン：戦意ゲージ(Frontline:BattleGauge)\n\nライバルウィングズ：アライアンスリスト(RivalWings:Alliance)\n\nライバルウィングズ：ステーション情報(RivalWings:Station)\n\nライバルウィングズ：ゴブリン・マーシナリー情報(RivalWings:Mercenary)\n\n\n\n>>サブコマンド\n\non \n\n　…HUDを表示する。\n\noff \n\n　…HUDを非表示にする。\n\n※サブコマンド省略\n\n　…表示／非表示のスイッチ切り替え。\n\n\n\n実行例\n\n/hud 基本情報\n\n　…基本情報の表示／非表示を切り替える。',
+        '/hud “HUD名” サブコマンド\n\n指定したHUDの表示／非表示を設定する。\n\n>>HUD名\n\nターゲット情報(TargetInfo,target)\n\nターゲット情報：HPバー(TargetInfo:HP)\n\nターゲット情報：キャストバー(TargetInfo:CastBar)\n\nターゲット情報：バフ・デバフ(TargetInfo:Status)\n\nフォーカスターゲット情報(FocusTarget,focus)\n\nパーティリスト(PartyList,party)\n\n敵対リスト(EnemyList,enemy)\n\nキャラクターパラメータ(MyParam,param)\n\nナビマップ(NaviMap,navi)\n\nメインコマンド(MainCommand,main)\n\n基本情報(GeneralInfo,dtr)\n\n所持金(CurrencyStatus,gil)\n\n装備・所持品サイン(ItemSign,bag)\n\n目的リスト/コンテンツ情報(ToDoList,todo)\n\nアイテム詳細(ItemHelp,item)\n\nアクション詳細(ActionHelp,action)\n\nリミットゲージ(LimitBreak,limit)\n\n経験値バー(ExpBar,exp)\n\nバフ・デバフステータス情報(BuffDebuffStatus,buff)\n\nステータス情報：バフ(Status:Buff)\n\nステータス情報：トリガー(Status:Trigger)\n\nステータス情報：デバフ(Status:Debuff)\n\nステータス情報：その他バフ(Status:Other)\n\nアライアンスリスト1(AllianceList1,alist1)\n\nアライアンスリスト2(AllianceList2,alist2)\n\nホットバー 1～10(Hotbar1～10)\n\nEXホットバー(HotbarEx)\n\nクロスホットバー(Crosshotbar)\n\nメインクエストガイド(ScenarioGuide)\n\n高圧エーテル(CompressedAether)\n\nクリスタルコンフリクト：プログレスゲージ(CConflict:Progress)\n\nクリスタルコンフリクト：味方チーム情報(CConflict:Ally)\n\nクリスタルコンフリクト：敵チーム情報(CConflict:Enemy)\n\nクリスタルコンフリクト：バトルログ(CConflict:Log)\n\nクリスタルコンフリクト：マップ(CConflict:Map)\n\nフロントライン：戦意ゲージ(Frontline:BattleGauge)\n\nフロントライン：スコア情報(Frontline:Score)\n\nライバルウィングズ：タワー・コアゲージ(RivalWings:Gauge)\n\nライバルウィングズ：アライアンスリスト(RivalWings:Alliance)\n\nライバルウィングズ：ステーション情報(RivalWings:Station)\n\nライバルウィングズ：ゴブリン・マーシナリー情報(RivalWings:Mercenary)\n\n\n\n>>サブコマンド\n\non \n\n　…HUDを表示する。\n\noff \n\n　…HUDを非表示にする。\n\n※サブコマンド省略\n\n　…表示／非表示のスイッチ切り替え。\n\n\n\n実行例\n\n/hud 基本情報\n\n　…基本情報の表示／非表示を切り替える。',
     },
     {
       ID: 315,
@@ -15960,6 +16742,15 @@ const data: MacrosData = {
         '/deride(/pagaga) サブコマンド\n\n反骨精神を示す。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
     },
     {
+      ID: 647,
+      Command: '/wow',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/wow サブコマンド\n\n目を輝かせる。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
       ID: 648,
       Command: '/eatpumpkincookie',
       ShortCommand: '/cookie',
@@ -15976,6 +16767,222 @@ const data: MacrosData = {
       ShortAlias: '',
       Description:
         '/spirit サブコマンド\n\n観戦する。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 650,
+      Command: '/magictrick',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/magictrick サブコマンド\n\n手品をする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 651,
+      Command: '/littleladiesdance',
+      ShortCommand: '/ladance',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/littleladiesdance(/ladance) サブコマンド\n\n姫の舞踊を踊る。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 652,
+      Command: '/linkpearl',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/linkpearl サブコマンド\n\nリンクパール通信をする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 653,
+      Command: '/earwiggle',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/earwiggle サブコマンド\n\nおみみをピコピコする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 657,
+      Command: '/frighten',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/frighten サブコマンド\n\n驚かす。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 658,
+      Command: '/adventoflight',
+      ShortCommand: '/advent',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/adventoflight(/advent) サブコマンド\n\n勇ましく降臨する。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 659,
+      Command: '/jumpforjoy1',
+      ShortCommand: '/jj1',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/jumpforjoy1(/jj1) サブコマンド\n\nかわいらしくハッピージャンプする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 660,
+      Command: '/jumpforjoy2',
+      ShortCommand: '/jj2',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/jumpforjoy2(/jj2) サブコマンド\n\n嬉しそうにハッピージャンプする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 661,
+      Command: '/jumpforjoy3',
+      ShortCommand: '/jj3',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/jumpforjoy3(/jj3) サブコマンド\n\n力強くハッピージャンプする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 662,
+      Command: '/jumpforjoy4',
+      ShortCommand: '/jj4',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/jumpforjoy4(/jj4) サブコマンド\n\nのびのびとハッピージャンプする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 663,
+      Command: '/jumpforjoy5',
+      ShortCommand: '/jj5',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/jumpforjoy5(/jj5) サブコマンド\n\nサボテンダー風にハッピージャンプする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 664,
+      Command: '/handtoheart',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/handtoheart サブコマンド\n\n胸に手をあてる。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 665,
+      Command: '/cheeronbright',
+      ShortCommand: '/cheerbright',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/cheeronbright(/cheerbright) サブコマンド\n\n声援（白）を送る。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 666,
+      Command: '/cheerwaveviolet',
+      ShortCommand: '/cheerviolet',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/cheerwaveviolet(/cheerviolet) サブコマンド\n\n声援（紫）を送る。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 667,
+      Command: '/cheerjumpgreen',
+      ShortCommand: '/cheergreen',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/cheerjumpgreen(/cheergreen) サブコマンド\n\n声援（緑）を送る。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 668,
+      Command: '/allsaintscharm',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/allsaintscharm サブコマンド\n\n守護天節のおまじないをかける。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 670,
+      Command: '/lophop',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/lophop サブコマンド\n\nレポリットダンスを踊る。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 671,
+      Command: '/reference',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/reference サブコマンド\n\n文献を見比べる。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 672,
+      Command: '/eatchicken',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/eatchicken サブコマンド\n\nフライドチキンを食べる。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 673,
+      Command: '/sundering',
+      ShortCommand: '/exodus',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/sundering(/exodus) サブコマンド\n\nエクソダスを放つ。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 674,
+      Command: '/slump',
+      ShortCommand: '',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/slump サブコマンド\n\nうなだれる。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 675,
+      Command: '/loveheart',
+      ShortCommand: '/heart',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/loveheart(/heart) サブコマンド\n\nハートポーズをする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 676,
+      Command: '/humbletriumph',
+      ShortCommand: '/waitforit',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/humbletriumph(/waitforit) サブコマンド\n\n自慢げなポーズをする。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
+    },
+    {
+      ID: 677,
+      Command: '/victoryreveal',
+      ShortCommand: '/vreveal',
+      Alias: '',
+      ShortAlias: '',
+      Description:
+        '/victoryreveal(/vreveal) サブコマンド\n\nビーンズ・ビクトリーを誇る。\n\n>>サブコマンド\n\nmotion\n\n　…モーションのみ、感情表現テキストは表示しない。\n\n※サブコマンド省略\n\n　…モーションと感情表現テキストを表示する。',
     },
   ],
   zh: [
@@ -16253,7 +17260,7 @@ const data: MacrosData = {
       Alias: '/召唤兽投影',
       ShortAlias: '/petmirage',
       Description:
-        '/召唤兽投影 召唤兽的名字 外貌\n/petmirage、/egimirage\n可以改变接下来召唤的召唤兽外貌。\n但在对战任务中无效。\n>>召唤兽的名字\n宝石兽\n迦楼罗之灵\n泰坦之灵\n伊弗利特之灵\n>>外貌\n宝石兽\n绿宝石兽\n黄宝石兽\n红宝石兽\n伊弗利特之灵\n泰坦之灵\n迦楼罗之灵\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>省略外貌或在外貌处输入“撤除(clear)”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n召唤兽会恢复原状。\n>>示例\n/召唤兽投影 迦楼罗之灵 红宝石兽\n将迦楼罗之灵的外貌变成红宝石兽。',
+        '/召唤兽投影 召唤兽的名字 外貌\n/petmirage、/egimirage\n可以改变接下来召唤的召唤兽外貌。\n但在对战任务中无效。\n>>召唤兽的名字\n宝石兽\n迦楼罗之灵\n泰坦之灵\n伊弗利特之灵\n朝日小仙女\n>>外貌\n宝石兽\n绿宝石兽\n黄宝石兽\n红宝石兽\n伊弗利特之灵\n泰坦之灵\n迦楼罗之灵\n夕月小仙女\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>省略外貌或在外貌处输入“撤除(clear)”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n召唤兽会恢复原状。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n显示召唤兽的外貌设定列表。\n\n>>示例\n/召唤兽投影 迦楼罗之灵 红宝石兽\n将迦楼罗之灵的外貌变成红宝石兽。\n/召唤兽投影 迦楼罗之灵\n将迦楼罗之灵的外貌恢复原状。\n/召唤兽投影\n显示召唤兽的外貌设定列表。',
     },
     {
       ID: 34,
@@ -16296,6 +17303,33 @@ const data: MacrosData = {
       Alias: '/冒险者铭牌',
       ShortAlias: '',
       Description: '/冒险者铭牌\n/adventurerplate(/myplate)\n打开自己的冒险者铭牌。',
+    },
+    {
+      ID: 39,
+      Command: '/rclickpc',
+      ShortCommand: '',
+      Alias: '/右键不可选中玩家',
+      ShortAlias: '',
+      Description:
+        '/右键不可选中玩家 子命令\n/rclickpc \n设置右键不可选中玩家角色作为目标。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>开(on)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　启用右键不可选中玩家设置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　关闭右键不可选中玩家设置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　在开启与关闭之间切换。',
+    },
+    {
+      ID: 40,
+      Command: '/rclickbattlenpc',
+      ShortCommand: '',
+      Alias: '/右键不可选中非玩家角色',
+      ShortAlias: '',
+      Description:
+        '/右键不可选中非玩家角色 子命令\n/rclickbattlenpc \n设置右键不可选中敌方或我方非玩家角色作为目标。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>开(on)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　启用右键不可选中非玩家设置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　关闭右键不可选中非玩家设置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　在开启与关闭之间切换。',
+    },
+    {
+      ID: 41,
+      Command: '/rclickminion',
+      ShortCommand: '',
+      Alias: '/右键不可选中宠物',
+      ShortAlias: '',
+      Description:
+        '/右键不可选中宠物 子命令\n/rclickminion \n设置右键不可选中宠物作为目标。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>开(on)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　启用右键不可选中宠物设置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　关闭右键不可选中宠物设置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　在开启与关闭之间切换。',
     },
     {
       ID: 91,
@@ -16704,7 +17738,7 @@ const data: MacrosData = {
       Alias: '/标记',
       ShortAlias: '',
       Description:
-        '/标记 标记种类 代名词\n/marking、/mk\n给指定角色加上指定的标记。省略代名词可以将标记加到当前选中的目标上。\n>>标记种类\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>攻击(attack)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>或<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>攻击1～5(attack1～5)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置攻击1～5的标记。不指定数值则会标记当前未使用的最小数值攻击标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>止步(bind)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>或<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>止步1～3(bind1～3)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置止步1～3的标记。不指定数值则会标记当前未使用的最小数值止步标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>禁止(stop)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>或<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>禁止1～2(stop1～2)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置禁止1～2的标记。不指定数值则会标记当前未使用的最小数值禁止标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>方块(square)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置泛用方块标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>圆圈(circle)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置泛用圆圈标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>十字(cross)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置泛用十字标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>三角(triangle)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置泛用三角标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>撤除(clear)或关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　解除标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　打开目标标记窗口。\n>>示例\n/标记 攻击3 <焦点目标> \n给焦点目标加上“攻击3”的标记。',
+        '/标记 标记种类 代名词\n/marking、/mk\n给指定角色加上指定的标记。省略代名词可以将标记加到当前选中的目标上。\n>>标记种类\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>攻击(attack)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>或<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>攻击1～8(attack1～8)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置攻击1～8的标记。不指定数值则会标记当前未使用的最小数值攻击标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>止步(bind)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>或<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>止步1～3(bind1～3)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置止步1～3的标记。不指定数值则会标记当前未使用的最小数值止步标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>禁止(stop)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>或<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>禁止1～2(stop1～2)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置禁止1～2的标记。不指定数值则会标记当前未使用的最小数值禁止标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>方块(square)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置泛用方块标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>圆圈(circle)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置泛用圆圈标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>十字(cross)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置泛用十字标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>三角(triangle)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置泛用三角标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>撤除(clear)或关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　解除标志。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　打开目标标记窗口。\n>>示例\n/标记 攻击3 <焦点目标> \n给焦点目标加上“攻击3”的标记。',
     },
     {
       ID: 157,
@@ -16875,7 +17909,7 @@ const data: MacrosData = {
       Alias: '/场景标记',
       ShortAlias: '/wmark',
       Description:
-        '/场景标记 子命令\n/waymark、/wmark\n设置场景标记。\n\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置标记。已设置的情况下则会撤除，如果指定代名词则会进行覆盖。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 代名词\n　在指定目标脚下直接设置标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 地面关\n　在当前所指位置直接设置标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>撤除(clear)或关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　撤除所有设置中的标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>保存(save) 存档编号1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　保存当前设置的场景标记配置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>预设(preset) 存档编号1-5<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　读取保存好的场景标记配置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>省略标记名<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　从A开始顺次设置尚未使用的标记。所有标记都设置完毕的状态下无法使用。指定代名词时无法省略标记名。\n>>示例\n/场景标记 A\n进入用于设置标记A的场景标记模式。\n/场景标记 A <目标>\n将标记A设置在所选目标的位置。\n/场景标记 A 地面关\n将标记A设置在当前所指位置。',
+        '/场景标记 子命令\n/waymark、/wmark\n设置场景标记。\n\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置标记。已设置的情况下则会撤除，如果指定代名词则会进行覆盖。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 代名词\n　在指定目标脚下直接设置标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>标记名(A、B、C、D、1、2、3、4)<UIGlow>01</UIGlow><UIForeground>01</UIForeground> 地面关\n　在当前所指位置直接设置标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>撤除(clear)或关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　撤除所有设置中的标记。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>保存(save) 存档编号1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　保存当前设置的场景标记配置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>预设(preset) 存档编号1-30<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　读取保存好的场景标记配置。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>省略标记名<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　从A开始顺次设置尚未使用的标记。所有标记都设置完毕的状态下无法使用。指定代名词时无法省略标记名。\n>>示例\n/场景标记 A\n进入用于设置标记A的场景标记模式。\n/场景标记 A <目标>\n将标记A设置在所选目标的位置。\n/场景标记 A 地面关\n将标记A设置在当前所指位置。',
     },
     {
       ID: 179,
@@ -17107,7 +18141,7 @@ const data: MacrosData = {
       Alias: '/套装',
       ShortAlias: '',
       Description:
-        '/套装 子命令\n/gearset、/gs\n进行套装相关的操作。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>更换(change) 套装编号 投影模板编号(1-15)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　装备指定编号的套装，如果输入了投影模板编号，则同时对套装进行投影。投影模板编号可省略。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>查看(view) 套装编号<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　查看指定编号套装的内容。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>保存(save) 套装编号<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　将当前穿着的装备保存到指定编号的位置中；省略编号的情况下会自动登录到最小空位编号中；指定编号已有内容时会直接覆盖保存。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>清除(remove) 套装编号<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　删除指定编号的套装，装备本身不会被删除。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　打开套装列表。\n>>示例\n/套装 更换 1 2\n装备编号1的套装并将其投影成投影模板编号2的外观。',
+        '/套装 子命令\n/gearset、/gs\n进行套装相关的操作。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>更换(change) 套装编号 投影模板编号(1-20)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　装备指定编号的套装，如果输入了投影模板编号，则同时对套装进行投影。投影模板编号可省略。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>查看(view) 套装编号<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　查看指定编号套装的内容。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>保存(save) 套装编号<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　将当前穿着的装备保存到指定编号的位置中；省略编号的情况下会自动登录到最小空位编号中；指定编号已有内容时会直接覆盖保存。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>清除(remove) 套装编号<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　删除指定编号的套装，装备本身不会被删除。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　打开套装列表。\n>>示例\n/套装 更换 1 2\n装备编号1的套装并将其投影成投影模板编号2的外观。',
     },
     {
       ID: 210,
@@ -17192,7 +18226,7 @@ const data: MacrosData = {
       Alias: '/集体动作',
       ShortAlias: '',
       Description:
-        '/集体动作\n/grouppose、/gpose\n执行集体动作。\n>>功能内操作\n显示镜头设置窗口\n<CommandIcon(10)/>/R键、小键盘*/鼠标滚轮\n角色面朝镜头方向(开/关)\n<CommandIcon(11)/>/空格键\n镜头位置打光\n<CommandIcon(13)/>/X键\n全体动作暂停\n<CommandIcon(14)/>/1键\n目标动作暂停\n<CommandIcon(15)/>/2键\n切换注视目标\n<CommandIcon(6)/>/Tab、Shift+Tab键\n调整镜头\n<CommandIcon(20)/>/W、A、S、D、Q、E键\n重置镜头\n<Gui(16)/>/Z键',
+        '/集体动作\n/grouppose、/gpose\n执行集体动作。\n>>功能内操作\n显示镜头设置窗口\n<CommandIcon(10)/>/<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>键、小键盘*/鼠标滚轮\n角色面朝镜头方向(开/关)\n<CommandIcon(11)/>/空格键\n镜头位置打光\n<CommandIcon(13)/>/<If(Equal(PlayerParameter(78),3))>x<Else/>X</If>键\n全体动作暂停\n<CommandIcon(14)/>/1键\n目标动作暂停\n<CommandIcon(15)/>/2键\n切换注视目标\n<CommandIcon(6)/>/<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>键\n调整镜头\n<CommandIcon(20)/>/<If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>键\n重置镜头\n<Gui(16)/>/<If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>键',
     },
     {
       ID: 220,
@@ -17210,7 +18244,7 @@ const data: MacrosData = {
       Alias: '/观景视角',
       ShortAlias: '',
       Description:
-        '/观景视角 代名词\n/idlingcamera、/icam\n切换为景观视角。\n代名词可以省略。在指定了代名词的情况下，摄像机镜头将会锁定该目标进行观景。如果指定的目标无法作为锁定目标进行观景，则会随机进行观景。\n>>功能内操作\n显示镜头设置窗口\n<CommandIcon(10)/>/R键、小键盘*/鼠标滚轮\n暂时停止或继续进行观景视角的切换\n<CommandIcon(8)/>/小键盘0/左键单击\n切换场景\n<CommandIcon(6)/>/Tab、Shift+Tab键\n调整镜头\n<CommandIcon(20)/>/W、A、S、D、Q、E键\n重置镜头\n<Gui(16)/>/Z键\n>>示例\n/观景视角\n随机选择对象执行观景。\n/观景视角 <目标>\n选择指定目标作为对象来执行观景。',
+        '/观景视角 代名词\n/idlingcamera、/icam\n切换为景观视角。\n代名词可以省略。在指定了代名词的情况下，摄像机镜头将会锁定该目标进行观景。如果指定的目标无法作为锁定目标进行观景，则会随机进行观景。\n>>功能内操作\n显示镜头设置窗口\n<CommandIcon(10)/>/<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>键、小键盘*/鼠标滚轮\n暂时停止或继续进行观景视角的切换\n<CommandIcon(8)/>/小键盘0/左键单击\n切换场景\n<CommandIcon(6)/>/<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>键\n调整镜头\n<CommandIcon(20)/>/<If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>键\n重置镜头\n<Gui(16)/>/<If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>键\n>>示例\n/观景视角\n随机选择对象执行观景。\n/观景视角 <目标>\n选择指定目标作为对象来执行观景。',
     },
     {
       ID: 223,
@@ -17246,7 +18280,7 @@ const data: MacrosData = {
       Alias: '/召唤物投影',
       ShortAlias: '/egimirage',
       Description:
-        '/召唤物投影 召唤兽的名字 外貌\n/petmirage、/egimirage\n可以改变接下来召唤的召唤兽外貌。\n但在对战任务中无效。\n>>召唤兽的名字\n宝石兽\n迦楼罗之灵\n泰坦之灵\n伊弗利特之灵\n>>外貌\n宝石兽\n绿宝石兽\n黄宝石兽\n红宝石兽\n迦楼罗之灵\n泰坦之灵\n伊弗利特之灵\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>省略外貌或在外貌处输入“撤除(clear)”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n召唤兽会恢复原状。\n>>示例\n/召唤兽投影 迦楼罗之灵 红宝石兽\n将迦楼罗之灵的外貌变成红宝石兽。',
+        '/召唤物投影 召唤兽的名字 外貌\n/petmirage、/egimirage\n可以改变接下来召唤的召唤兽外貌。\n但在对战任务中无效。\n>>召唤兽的名字\n宝石兽\n迦楼罗之灵\n泰坦之灵\n伊弗利特之灵\n朝日小仙女\n>>外貌\n宝石兽\n绿宝石兽\n黄宝石兽\n红宝石兽\n迦楼罗之灵\n泰坦之灵\n伊弗利特之灵\n夕月小仙女\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>省略外貌或在外貌处输入“撤除(clear)”<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n召唤兽会恢复原状。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n显示召唤兽的外貌设定列表。\n\n>>示例\n/召唤兽投影 迦楼罗之灵 红宝石兽\n将迦楼罗之灵的外貌变成红宝石兽。\n/召唤兽投影 迦楼罗之灵\n将迦楼罗之灵的外貌恢复原状。\n/召唤兽投影\n显示召唤兽的外貌设定列表。',
     },
     {
       ID: 227,
@@ -17361,7 +18395,7 @@ const data: MacrosData = {
       Alias: '/技能',
       ShortAlias: '',
       Description:
-        '/技能 技能名 代名词\n/action、/ac\n对指定目标使用指定技能。以自己为目标的技能可以省略输入代名词。\n如果身处无法使用技能的环境，或者还没有学会指定技能，则命令无效。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/技能 重劈 <目标>\n对当前所选择的目标执行技能“重劈”。\n/技能 治疗 <2>\n对小队列表中的2号队员执行技能“治疗”。\n/技能 缩地 <目标>\n对选择目标的位置执行技能“缩地”。\n/技能 缩地 地面关\n对所指的位置直接执行技能“缩地”。',
+        '/技能 技能名 代名词\n/action、/ac\n对指定目标使用指定技能。如果身处无法使用技能的环境，或者还没有学会指定技能，则命令无效。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/技能 重劈 <目标>\n对当前所选择的目标执行技能“重劈”。\n/技能 治疗 <2>\n对小队列表中的2号队员执行技能“治疗”。\n/技能 缩地 <目标>\n对选择目标的位置执行技能“缩地”。\n/技能 缩地 地面关\n对所指的位置直接执行技能“缩地”。',
     },
     {
       ID: 252,
@@ -17531,7 +18565,7 @@ const data: MacrosData = {
       Alias: '/额外技能',
       ShortAlias: '',
       Description:
-        '/额外技能 技能名 子命令\n/additionalaction、/aaction\n将指定的“额外技能（仅限大地使者）”设置到当前职业上。技能名使用“撤除(clear)”时会解除当前设定的所有已选技能。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>开(on)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　设置指定技能。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　解除指定技能。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　在设置或解除技能中切换。\n>>示例\n/额外技能 三角测量 开\n将“三角测量”设置为当前职业的额外技能。\n/额外技能 撤除\n解除当前职业所设置的额外技能。',
+        '/额外技能 技能名 子命令\n/additionalaction、/aaction\n曾经被认为是可以设定额外技能的功能。\n※因系统调整现在已无法使用。',
     },
     {
       ID: 273,
@@ -17540,7 +18574,7 @@ const data: MacrosData = {
       Alias: '/共通技能',
       ShortAlias: '',
       Description:
-        '/共通技能 共通技能名 代名词\n/generalaction、/gaction\n对指定的玩家发动指定的共通技能。对于可以以自身为目标的共通技能可以省略代名词。处于无法发动共通技能的环境中指令无效，没有学会的共通技能也无法发动。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/共通技能 随机坐骑\n发动共通技能“随机坐骑”。\n/共通技能 任务指令1 <目标>\n对目标发动任务指令中的第一个技能。',
+        '/共通技能 共通技能名 代名词\n/generalaction、/gaction\n对指定的玩家发动指定的共通技能。处于无法发动共通技能的环境中指令无效，没有学会的共通技能也无法发动。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/共通技能 随机坐骑\n发动共通技能“随机坐骑”。\n/共通技能 任务指令1 <目标>\n对目标发动任务指令中的第一个技能。',
     },
     {
       ID: 274,
@@ -17567,7 +18601,7 @@ const data: MacrosData = {
       Alias: '/对战额外技能',
       ShortAlias: '',
       Description:
-        '/对战额外技能 对战额外技能1 对战额外技能2\n/addpvpaction、/apa\n在对战技能中设置要追加的额外技能。需要同时设置两个技能。\n>>示例\n/对战额外技能 武器投掷 全力挥打\n设置“武器投掷”和“全力挥打”这两个技能。',
+        '/对战额外技能 对战额外技能1 对战额外技能2\n/addpvpaction、/apa\n曾经被认为是可以设定对战额外技能的功能。\n※因系统调整现在已无法使用。',
     },
     {
       ID: 277,
@@ -17576,7 +18610,7 @@ const data: MacrosData = {
       Alias: '/对战技能',
       ShortAlias: '',
       Description:
-        '/对战技能 对战技能名 代名词\n/pvpaction、/pvpac\n对指定目标使用指定对战技能。以自己为目标的技能可以省略输入代名词。向目标攻击类技能必须使用代名词。如果身处无法使用技能的环境，或者还没有学会指定技能，则命令无效。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/对战技能 暴风斩连击 <目标>\n对当前所选择的对象执行连击中的技能。\n/对战技能 缩地 <目标>\n对选择目标的位置执行技能“缩地”。\n/对战技能 缩地 地面关\n对所指的位置直接执行技能“缩地”。',
+        '/对战技能 对战技能名 代名词\n/pvpaction、/pvpac\n对指定目标使用指定对战技能。如果身处无法使用技能的环境，或者还没有学会指定技能，则命令无效。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/对战技能 暴风斩连击 <目标>\n对当前所选择的对象执行连击中的技能。\n/对战技能 缩地 <目标>\n对选择目标的位置执行技能“缩地”。\n/对战技能 缩地 地面关\n对所指的位置直接执行技能“缩地”。',
     },
     {
       ID: 279,
@@ -17585,7 +18619,7 @@ const data: MacrosData = {
       Alias: '/青魔法技能',
       ShortAlias: '',
       Description:
-        '/青魔法技能 青魔法名 代名词\n/blueaction\n对指定目标使用指定青魔法技能。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/青魔法技能 水炮 <目标>\n对当前所选择的目标执行技能“水炮”。',
+        '/青魔法技能 青魔法名 代名词\n/blueaction\n对指定目标使用指定青魔法技能。身处无法使用技能的环境或发动未学习的技能时无法执行该命令。\n\n在技能会使用到地面目标的情况下，为技能名后设定子命令可以指定操作模式。\n代名词\n　省略地面目标模式，直接向指定目标发动技能。\n地面关\n　省略地面目标模式，直接发动技能。\n>>示例\n/青魔法技能 水炮 <目标>\n对当前所选择的目标执行技能“水炮”。',
     },
     {
       ID: 301,
@@ -17639,7 +18673,7 @@ const data: MacrosData = {
       Alias: '/自动选中',
       ShortAlias: '',
       Description:
-        '/自动选中 子命令\n/autotarget\n开启“未选中目标时自动选中”的功能。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>开(on)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　开启自动选中功能。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　关闭自动选中功能。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　在开启和关闭之间切换',
+        '/自动选中 子命令\n/autotarget\n开启“遭受敌对性质技能时自动选中目标”的功能。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>开(on)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　开启自动选中功能。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>关(off)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　关闭自动选中功能。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n　在开启和关闭之间切换',
     },
     {
       ID: 307,
@@ -19812,6 +20846,15 @@ const data: MacrosData = {
         '/抱头 子命令\n/clutchhead\n双手抱住脑袋。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
     },
     {
+      ID: 635,
+      Command: '/eatchocolate',
+      ShortCommand: '/choco',
+      Alias: '/吃恋人巧克力',
+      ShortAlias: '',
+      Description:
+        '/吃恋人巧克力 子命令\n/eatchocolate(/choco)\n开始吃恋人巧克力。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
       ID: 636,
       Command: '/eategg',
       ShortCommand: '/egg',
@@ -19882,6 +20925,195 @@ const data: MacrosData = {
       ShortAlias: '',
       Description:
         '/展现左侧 子命令\n/showleft\n展现自己左侧的事物。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 646,
+      Command: '/deride',
+      ShortCommand: '/pagaga',
+      Alias: '/叛逆精神',
+      ShortAlias: '',
+      Description:
+        '/叛逆精神 子命令\n/deride(/pagaga)\n展现叛逆精神。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 647,
+      Command: '/wow',
+      ShortCommand: '',
+      Alias: '/两眼放光',
+      ShortAlias: '',
+      Description:
+        '/两眼放光 子命令\n/wow\n两眼放出光芒。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 648,
+      Command: '/eatpumpkincookie',
+      ShortCommand: '/cookie',
+      Alias: '/吃南瓜曲奇',
+      ShortAlias: '',
+      Description:
+        '/吃南瓜曲奇 子命令\n/eatpumpkincookie(/cookie) \n开始吃南瓜曲奇。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 649,
+      Command: '/spirit',
+      ShortCommand: '',
+      Alias: '/观战',
+      ShortAlias: '',
+      Description:
+        '/观战 子命令\n/spirit \n开始观战。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 650,
+      Command: '/magictrick',
+      ShortCommand: '',
+      Alias: '/魔术',
+      ShortAlias: '',
+      Description:
+        '/魔术 子命令\n/magictrick\n表演魔术。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 651,
+      Command: '/littleladiesdance',
+      ShortCommand: '/ladance',
+      Alias: '/公主之舞',
+      ShortAlias: '',
+      Description:
+        '/公主之舞 子命令\n/littleladiesdance(/ladance)\n跳起公主之舞。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 652,
+      Command: '/linkpearl',
+      ShortCommand: '',
+      Alias: '/通讯珠',
+      ShortAlias: '',
+      Description:
+        '/通讯珠 子命令\n/linkpearl\n用通讯珠交流。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 653,
+      Command: '/earwiggle',
+      ShortCommand: '',
+      Alias: '/摇兔兔耳',
+      ShortAlias: '',
+      Description:
+        '/摇兔兔耳 子命令\n/earwiggle \n摇了摇兔兔耳。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 657,
+      Command: '/frighten',
+      ShortCommand: '',
+      Alias: '/吓唬人',
+      ShortAlias: '',
+      Description:
+        '/吓唬人 子命令\n/frighten\n吓唬人。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 658,
+      Command: '/adventoflight',
+      ShortCommand: '/advent',
+      Alias: '/威光降临',
+      ShortAlias: '',
+      Description:
+        '/威光降临 子命令\n/adventoflight(/advent)\n威猛地从天而降。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 659,
+      Command: '/jumpforjoy1',
+      ShortCommand: '/jj1',
+      Alias: '/雀跃1',
+      ShortAlias: '',
+      Description:
+        '/雀跃1 子命令\n/jumpforjoy1(/jj1)\n开心地跳了起来，动作格外可爱。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 660,
+      Command: '/jumpforjoy2',
+      ShortCommand: '/jj2',
+      Alias: '/雀跃2',
+      ShortAlias: '',
+      Description:
+        '/雀跃2 子命令\n/jumpforjoy2(/jj2)\n开心地跳了起来，动作格外欢乐。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 661,
+      Command: '/jumpforjoy3',
+      ShortCommand: '/jj3',
+      Alias: '/雀跃3',
+      ShortAlias: '',
+      Description:
+        '/雀跃3 子命令\n/jumpforjoy3(/jj3)\n开心地跳了起来，跳得格外的高。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 662,
+      Command: '/jumpforjoy4',
+      ShortCommand: '/jj4',
+      Alias: '/雀跃4',
+      ShortAlias: '',
+      Description:
+        '/雀跃4 子命令\n/jumpforjoy4(/jj4)\n开心地跳了起来，动作格外舒展。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 663,
+      Command: '/jumpforjoy5',
+      ShortCommand: '/jj5',
+      Alias: '/雀跃5',
+      ShortAlias: '',
+      Description:
+        '/雀跃5 子命令\n/jumpforjoy5(/jj5)\n开心地跳了起来，动作好像仙人刺。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 664,
+      Command: '/handtoheart',
+      ShortCommand: '',
+      Alias: '/手抚胸',
+      ShortAlias: '',
+      Description:
+        '/手抚胸 子命令\n/handtoheart\n以手抚胸。\n>>子命令\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n<UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 665,
+      Command: '/cheeronbright',
+      ShortCommand: '/cheerbright',
+      Alias: '/声援小白',
+      ShortAlias: '',
+      Description:
+        '/声援小白 子命令\n /cheeronbright(/cheerbright)\n做出声援小白的动作。\n >>子命令\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 666,
+      Command: '/cheerwaveviolet',
+      ShortCommand: '/cheerviolet',
+      Alias: '/声援小紫',
+      ShortAlias: '',
+      Description:
+        '/声援小紫 子命令\n /cheerwaveviolet(/cheerviolet)\n做出声援小紫的动作。\n >>子命令\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 667,
+      Command: '/cheerjumpgreen',
+      ShortCommand: '/cheergreen',
+      Alias: '/声援小绿',
+      ShortAlias: '',
+      Description:
+        '/声援小绿 子命令\n /cheerjumpgreen(/cheergreen\n做出声援小绿的动作。\n >>子命令\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 668,
+      Command: '/allsaintscharm',
+      ShortCommand: '',
+      Alias: '/守护天节的魔咒',
+      ShortAlias: '',
+      Description:
+        '/守护天节的魔咒 子命令\n /allsaintscharm\n施展守护天节的魔咒。\n >>子命令\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
+    },
+    {
+      ID: 671,
+      Command: '/reference',
+      ShortCommand: '',
+      Alias: '/比对文献',
+      ShortAlias: '',
+      Description:
+        '/比对文献 子命令\n /reference\n比对文献。\n >>子命令\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>动作(motion)<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n只做动作。\n <UIForeground>F201FA</UIForeground><UIGlow>F201FB</UIGlow>无子命令<UIGlow>01</UIGlow><UIForeground>01</UIForeground>\n做出动作并显示文字提示。',
     },
   ],
   ko: [
@@ -20157,7 +21389,7 @@ const data: MacrosData = {
       Alias: '/소환수외형',
       Command: '/petmirage',
       Description:
-        '/소환수외형(/에기외형)  "소환수 이름" "외형 이름"\n다음부터 소환하는 소환수의 외형을 변경합니다.\n단, PvP 임무 중에는 적용되지 않습니다.\n>>소환수 이름\n"카벙클"\n"가루다 에기"\n"타이탄 에기"\n"이프리트 에기"\n>>외형 이름\n"카벙클"\n"카벙클 에메랄드"\n"카벙클 토파즈"\n"카벙클 루비"\n"이프리트 에기"\n"타이탄 에기"\n"가루다 에기"\n※ 소환수 이름 생략(clear)\n  …소환수의 모습을 원래대로 되돌립니다.\n\n용례\n/소환수외형 "가루다 에기" "카벙클 루비"\n　…가루다 에기의 외형을 카벙클 루비로 변경합니다.',
+        '/소환수외형(/에기외형)  "소환수 이름" "외형 이름"\n다음부터 소환하는 소환수의 외형을 변경합니다.\n단, PvP 임무 중에는 적용되지 않습니다.\n>>소환수 이름\n"카벙클"\n"가루다 에기"\n"타이탄 에기"\n"이프리트 에기"\n"요정 에오스"\n>>외형 이름\n"카벙클"\n"카벙클 에메랄드"\n"카벙클 토파즈"\n"카벙클 루비"\n"이프리트 에기"\n"타이탄 에기"\n"가루다 에기"\n"요정 셀레네"\n※ 외형 이름 생략(clear)\n  …소환수의 모습을 원래대로 되돌립니다.\n※ 보조명령어 생략\n  …소환수 외형 설정 상태가 대화창에 표시됩니다.\n\n  용례\n/소환수외형 "가루다 에기" "카벙클 루비"\n  …가루다 에기의 외형을 카벙클 루비로 변경합니다./소환수외형 "가루다 에기"\n  …가루다 에기의 외형을 원래대로 되돌립니다.\n/소환수외형\n  …소환수 외형 설정 상태를 대화창에 표시합니다.',
       ShortAlias: '/에기외형',
       ShortCommand: '',
     },
@@ -20202,6 +21434,33 @@ const data: MacrosData = {
       Description: '/모험가카드(/내카드)\n자신의 모험가 카드를 엽니다.',
       ShortAlias: '/내카드',
       ShortCommand: '/myplate',
+    },
+    {
+      ID: 39,
+      Alias: '/오클플',
+      Command: '/rclickpc',
+      Description:
+        "/오클플 보조명령어\n캐릭터 설정의 '오른쪽 클릭으로 선택 시 플레이어 제외' 설정을 전환합니다.\n>>보조명령어\n켜기(on)\n　…제외 설정을 켭니다.\n끄기(off)\n　…제외 설정을 끕니다.\n※ 보조 명령어 생략\n　…제외 설정을 끄거나 켭니다.",
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 40,
+      Alias: '/오클적',
+      Command: '/rclickbattlenpc',
+      Description:
+        "/오클적 보조명령어\n캐릭터 설정의 '오른쪽 클릭으로 선택 시 적/아군 NPC 제외' 설정을 전환합니다.\n>>보조명령어\n켜기(on)\n　…제외 설정을 켭니다.\n끄기(off)\n　…제외 설정을 끕니다.\n※ 보조 명령어 생략\n　…제외 설정을 끄거나 켭니다.",
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 41,
+      Alias: '/오클꼬',
+      Command: '/rclickminion',
+      Description:
+        "/오클꼬 보조명령어\n캐릭터 설정의 '오른쪽 클릭으로 선택 시 꼬마 친구 제외' 설정을 전환합니다.\n>>보조명령어\n켜기(on)\n　…제외 설정을 켭니다.\n끄기(off)\n　…제외 설정을 끕니다.\n※ 보조 명령어 생략\n　…제외 설정을 끄거나 켭니다.",
+      ShortAlias: '',
+      ShortCommand: '',
     },
     {
       ID: 91,
@@ -20606,7 +21865,7 @@ const data: MacrosData = {
       Alias: '/표식지정',
       Command: '/marking',
       Description:
-        '/표식지정(/표식) 유형 "대명사"\n대상의 머리 위에 나타나는 표식을 지정합니다. 대명사를 생략한 경우에는 현재 대상에게 표식을 지정합니다.\n>>유형\n공격1~5(attack1~5)\n …공격 1~5를 설정. "공격(attack)"만 입력한 경우에는 아직 사용되지 않은 가장 작은 번호의 공격 표식을 설정합니다.\n속박1~3(bind1~3)\n …속박 1~3을 설정. "속박(bind)"만 입력한 경우에는 아직 사용되지 않은 가장 작은 번호의 속박 표식을 설정합니다.\n금지1~2(stop1~2)\n …금지 1~2를 설정. "금지(stop)"만 입력한 경우에는 아직 사용되지 않은 가장 작은 번호의 금지 표식을 설정합니다.\n네모(square)\n …네모 표식을 설정합니다.\n동그라미(circle)\n …동그라미 표식을 설정합니다.\n십자(cross)\n …십자 표식을 설정합니다.\n세모(triangle)\n …세모 표식을 설정합니다.\n끄기(off) \n …표식을 해제합니다.\n※ 보조명령어 생략\n …표식 메뉴를 엽니다.\n\n용례\n/표식 공격3 <t>\n …선택한 대상에게 \'공격3\' 표식을 설정합니다.',
+        '/표식지정(/표식) 유형 "대명사"\n대상의 머리 위에 나타나는 표식을 지정합니다. 대명사를 생략한 경우에는 현재 대상에게 표식을 지정합니다.\n>>유형\n공격1~8(attack1~8)\n …공격 1~8을 설정. "공격(attack)"만 입력한 경우에는 아직 사용되지 않은 가장 작은 번호의 공격 표식을 설정합니다.\n속박1~3(bind1~3)\n …속박 1~3을 설정. "속박(bind)"만 입력한 경우에는 아직 사용되지 않은 가장 작은 번호의 속박 표식을 설정합니다.\n금지1~2(stop1~2)\n …금지 1~2를 설정. "금지(stop)"만 입력한 경우에는 아직 사용되지 않은 가장 작은 번호의 금지 표식을 설정합니다.\n네모(square)\n …네모 표식을 설정합니다.\n동그라미(circle)\n …동그라미 표식을 설정합니다.\n십자(cross)\n …십자 표식을 설정합니다.\n세모(triangle)\n …세모 표식을 설정합니다.\n끄기(off) \n …표식을 해제합니다.\n※ 보조명령어 생략\n …표식 메뉴를 엽니다.\n\n용례\n/표식 공격3 <t>\n …선택한 대상에게 \'공격3\' 표식을 설정합니다.',
       ShortAlias: '/표식',
       ShortCommand: '/mk',
     },
@@ -20777,7 +22036,7 @@ const data: MacrosData = {
       Alias: '/지면표식',
       Command: '/waymark',
       Description:
-        '/지면표식(/지표) 보조명령어\n지면 표식을 설치합니다.\n>>보조명령어\n표식 이름(A, B, C, D, 1, 2, 3, 4)\n …해당 지면 표식을 설치하거나 해제합니다. 대명사를 지정해서 사용할 경우 대상의 위치에 겹치도록 설치합니다.\n표식 이름(A, B, C, D, 1, 2, 3, 4) "대명사"\n …대상 캐릭터가 있는 위치에 지정한 지면 표식을 설치합니다.\n표식 이름(A, B, C, D, 1, 2, 3, 4) 지면조준끄기(gtoff)\n …지정한 지면 표식을 수동으로 설치합니다.\n해제(clear)\n …지면 표식을 모두 해제합니다.\n저장(save) 칸 번호(1-5)\n …설치되어 있는 지면 표식을 선택한 칸에 저장합니다.\n사전설정(preset) 칸 번호(1-5)\n …선택한 칸의 지면 표식 정보를 복원합니다.\n※ 표식 이름 생략\n …현재 사용되지 않은 지면 표식을 A부터 순서대로 사용합니다. 모든 표식이 설치되어 있는 경우에는 사용할 수 없습니다. 대명사가 지정된 경우에는 표식 이름을 생략할 수 없습니다.\n\n  용례\n/지면표식 A\n …지면 조준 모드로 전환하여 A 표식을 설치합니다.\n/지면표식 A <t>\n …대상의 위치에 A 표식을 설치합니다./지면표식 A 지면조준해제\n …A 표식을 수동으로 설치합니다.',
+        '/지면표식(/지표) 보조명령어\n지면 표식을 설치합니다.\n>>보조명령어\n표식 이름(A, B, C, D, 1, 2, 3, 4)\n …해당 지면 표식을 설치하거나 해제합니다. 대명사를 지정해서 사용할 경우 대상의 위치에 겹치도록 설치합니다.\n표식 이름(A, B, C, D, 1, 2, 3, 4) "대명사"\n …대상 캐릭터가 있는 위치에 지정한 지면 표식을 설치합니다.\n표식 이름(A, B, C, D, 1, 2, 3, 4) 지면조준끄기(gtoff)\n …지정한 지면 표식을 수동으로 설치합니다.\n해제(clear)\n …지면 표식을 모두 해제합니다.\n저장(save) 칸 번호(1-30)\n …설치되어 있는 지면 표식을 선택한 칸에 저장합니다.\n사전설정(preset) 칸 번호(1-30)\n …선택한 칸의 지면 표식 정보를 복원합니다.\n※ 표식 이름 생략\n …현재 사용되지 않은 지면 표식을 A부터 순서대로 사용합니다. 모든 표식이 설치되어 있는 경우에는 사용할 수 없습니다. 대명사가 지정된 경우에는 표식 이름을 생략할 수 없습니다.\n\n  용례\n/지면표식 A\n …지면 조준 모드로 전환하여 A 표식을 설치합니다.\n/지면표식 A <t>\n …대상의 위치에 A 표식을 설치합니다./지면표식 A 지면조준해제\n …A 표식을 수동으로 설치합니다.',
       ShortAlias: '/지표',
       ShortCommand: '/wmark',
     },
@@ -20992,7 +22251,7 @@ const data: MacrosData = {
       Alias: '/아이콘',
       Command: '/macroicon',
       Description:
-        '/아이콘 "아이콘 이름" 범주\n매크로 전용 명령어로, 지정한 아이콘이 단축바에 표시되게 합니다. 같은 매크로에 2회 이상 해당 명령어가 사용된 경우에는 처음 지정된 것만 유효합니다.\n>>범주 지정\n기술(action)\n …아이콘 이름에 기술 이름을 지정하면 해당 기술의 아이콘과 재사용 대기 시간, 소비 MP 정보가 표시됩니다.\n청마법(blueaction)\n …아이콘 이름에 청마법 이름을 지정하면 해당 기술의 아이콘과 재사용 대기 시간, 소비 MP 정보가 표시됩니다.\n대인기술(pvpaction)\n …아이콘 이름에 PvP 기술 이름을 지정하면 해당 기술의 아이콘과 재사용 대기 시간, 소비 MP 정보가 표시됩니다.\n일반기술(general)\n …아이콘 이름에 일반 기술 이름을 지정하면 해당 기술의 아이콘과 재사용 대기 시간이 표시됩니다.\n감정표현(emote)\n …아이콘 이름에 감정 표현 이름을 지정하면 해당 아이콘이 표시됩니다.\n버디(buddy) 버디이름\n …아이콘 이름에 버디 기술 이름을 지정하면 해당 기술의 아이콘이 표시됩니다. 버디 이름은 생략 가능합니다.\n소환수(pet)\n …아이콘 이름에 소환수 기술 이름을 지정하면 해당 기술의 아이콘이 표시됩니다.\n꼬마친구(minion)\n …아이콘 이름에 꼬마 친구 이름을 지정하면 해당 아이콘이 표시됩니다.\n탈것(mount)\n …아이콘 이름에 탈것 이름을 지정하면 해당 아이콘이 표시됩니다.\n아이템(item)\n …아이콘 이름에 자신이 소지한 아이템 이름을 지정하면 해당 아이콘과 보유 수가 표시됩니다.\n표식(marking)\n …아이콘 이름에 표식 이름을 지정하면 해당 아이콘이 표시됩니다.\n지면표식(waymark)\n …아이콘 이름에 지면 표식 이름을 지정하면 해당 아이콘이 표시됩니다.\n장비세트(gearset)\n …아이콘 이름에 장비세트 번호를 지정하면 해당 아이콘이 표시됩니다.\n전략적대화(quickchat)\n …아이콘 이름에 전략적 대화 이름을 지정하면 해당 아이콘이 표시됩니다.\n직업(classjob)\n …아이콘 이름에 직업 이름을 지정하면 해당 아이콘이 표시됩니다.\n※ 범주 생략\n …기술(action) 범주가 입력된 것으로 취급합니다.\n\n용례\n/아이콘 "돌풍" 소환수\n …비술사의 카벙클이 사용하는 \'돌풍\' 기술 아이콘이 매크로 아이콘으로 지정됩니다.',
+        '/아이콘 "아이콘 이름" 범주\n매크로 전용 명령어로, 지정한 아이콘이 단축바에 표시되게 합니다. 같은 매크로에 2회 이상 해당 명령어가 사용된 경우에는 처음 지정된 것만 유효합니다.\n>>범주 지정\n기술(action)\n …아이콘 이름에 기술 이름을 지정하면 해당 기술의 아이콘과 재사용 대기 시간, 소비 MP 정보가 표시됩니다.\n청마법(blueaction)\n …아이콘 이름에 청마법 이름을 지정하면 해당 기술의 아이콘과 재사용 대기 시간, 소비 MP 정보가 표시됩니다.\n대인기술(pvpaction)\n …아이콘 이름에 PvP 기술 이름을 지정하면 해당 기술의 아이콘과 재사용 대기 시간, 소비 MP 정보가 표시됩니다.\n일반기술(general)\n …아이콘 이름에 일반 기술 이름을 지정하면 해당 기술의 아이콘과 재사용 대기 시간이 표시됩니다.\n감정표현(emote)\n …아이콘 이름에 감정 표현 이름을 지정하면 해당 아이콘이 표시됩니다.\n버디(buddy) 버디이름\n …아이콘 이름에 버디 기술 이름을 지정하면 해당 기술의 아이콘이 표시됩니다. 버디 이름은 생략 가능합니다.\n소환수(pet)\n …아이콘 이름에 소환수 기술 이름을 지정하면 해당 기술의 아이콘이 표시됩니다.\n꼬마친구(minion)\n …아이콘 이름에 꼬마 친구 이름을 지정하면 해당 아이콘이 표시됩니다.\n탈것(mount)\n …아이콘 이름에 탈것 이름을 지정하면 해당 아이콘이 표시됩니다.\n아이템(item)\n …아이콘 이름에 자신이 소지한 아이템 이름을 지정하면 해당 아이콘과 보유 수가 표시됩니다.\n표식(marking)\n …아이콘 이름에 표식 이름을 지정하면 해당 아이콘이 표시됩니다.\n지면표식(waymark)\n …아이콘 이름에 지면 표식 이름을 지정하면 해당 아이콘이 표시됩니다.\n장비세트(gearset)\n …아이콘 이름에 장비세트 번호를 지정하면 해당 아이콘이 표시됩니다.\n전략적대화(quickchat)\n …아이콘 이름에 전략적 대화 이름을 지정하면 해당 아이콘이 표시됩니다.\n직업(classjob)\n …아이콘 이름에 직업 이름을 지정하면 해당 아이콘이 표시됩니다.\n※ 범주 생략\n …기술(action) 범주가 입력된 것으로 취급합니다.',
       ShortAlias: '',
       ShortCommand: '/micon',
     },
@@ -21010,7 +22269,7 @@ const data: MacrosData = {
       Alias: '/장비세트',
       Command: '/gearset',
       Description:
-        "/장비세트 보조명령어\n장비세트에 관한 조작을 실행합니다.\n>>보조명령어\n변경(change) 장비세트이름/번호 투영세트번호(1-15)\n …지정한 장비세트에 설정된 장비로 변경합니다. 투영세트 번호를 설정하면 변경한 장비세트에 투영세트 내용을 투영합니다. 투영세트 번호는 생략할 수 있습니다.\n보기(view) 장비세트이름/번호\n …지정한 장비세트에 설정된 장비의 목록을 표시합니다.\n저장(save) 장비세트이름/번호\n …지정한 장비세트에 현재 착용한 장비를 저장합니다. 장비세트 이름/번호를 생략한 경우에는 아직 등록되지 않은 가장 작은 번호의 장비세트에 저장합니다. 이미 등록된 장비세트 번호를 지정한 경우에는 덮어씁니다.\n삭제(remove) 장비세트이름/번호\n …지정한 장비세트의 정보를 삭제합니다. 실제 장비 자체는 삭제되지 않습니다.\n※ 보조명령어 생략\n …장비세트 목록을 엽니다.\n※ 장비세트 이름은 첫 글자부터 일부만 입력해도 작동합니다. 이름이 겹칠 경우, 장비세트 번호가 더 낮은 장비세트가 선택됩니다.\n용례\n/장비세트 변경 1 1\n …장비세트 1로 변경한 다음 투영세트 1을 투영합니다./장비세트 변경 전사 1\n …'전사'로 시작하는 이름 중 번호가 가장 낮은 장비세트로 변경한 다음, 투영세트 1을 투영합니다.",
+        "/장비세트 보조명령어\n장비세트에 관한 조작을 실행합니다.\n>>보조명령어\n변경(change) 장비세트이름/번호 투영세트번호(1-20)\n …지정한 장비세트에 설정된 장비로 변경합니다. 투영세트 번호를 설정하면 변경한 장비세트에 투영세트 내용을 투영합니다. 투영세트 번호는 생략할 수 있습니다.\n보기(view) 장비세트이름/번호\n …지정한 장비세트에 설정된 장비의 목록을 표시합니다.\n저장(save) 장비세트이름/번호\n …지정한 장비세트에 현재 착용한 장비를 저장합니다. 장비세트 이름/번호를 생략한 경우에는 아직 등록되지 않은 가장 작은 번호의 장비세트에 저장합니다. 이미 등록된 장비세트 번호를 지정한 경우에는 덮어씁니다.\n삭제(remove) 장비세트이름/번호\n …지정한 장비세트의 정보를 삭제합니다. 실제 장비 자체는 삭제되지 않습니다.\n※ 보조명령어 생략\n …장비세트 목록을 엽니다.\n※ 장비세트 이름은 첫 글자부터 일부만 입력해도 작동합니다. 이름이 겹칠 경우, 장비세트 번호가 더 낮은 장비세트가 선택됩니다.\n용례\n/장비세트 변경 1 1\n …장비세트 1로 변경한 다음 투영세트 1을 투영합니다./장비세트 변경 전사 1\n …'전사'로 시작하는 이름 중 번호가 가장 낮은 장비세트로 변경한 다음, 투영세트 1을 투영합니다.",
       ShortAlias: '',
       ShortCommand: '/gs',
     },
@@ -21095,7 +22354,7 @@ const data: MacrosData = {
       Alias: '/단체자세',
       Command: '/grouppose',
       Description:
-        '/단체자세(/단체)\n모든 파티원이 동시에 같은 자세를 취합니다.\n\n>>실행 중 조작\n카메라 설정 창 표시\n …<CommandIcon(10)/> / [R], 숫자패드 [*] / 마우스 휠 클릭\n카메라 바라보기 설정/해제\n …<CommandIcon(11)/> / 스페이스 바\n카메라 위치에 조명 설치\n …<CommandIcon(13)/> / [X]\n동작 멈추기(전체)\n …<CommandIcon(14)/> / [1]\n동작 멈추기(선택한 대상)\n …<CommandIcon(15)/> / [2]\n주시할 캐릭터 변경\n …<CommandIcon(6)/> / [Tab, Shift+Tab]\n카메라 조작\n …<CommandIcon(20)/> / [W,A,S,D,Q,E]\n카메라 초기화\n …<Gui(16)/> / [Z] ',
+        '/단체자세(/단체)\n모든 파티원이 동시에 같은 자세를 취합니다.\n\n>>실행 중 조작\n카메라 설정 창 표시\n　…<CommandIcon(10)/> / [<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>], 숫자패드 [*] / 마우스 휠 클릭\n카메라 바라보기 설정/해제\n　…<CommandIcon(11)/> / [<If(Equal(PlayerParameter(78),3))>스페이스 바<Else/>스페이스 바</If>]\n카메라 위치에 조명 설치\n　…<CommandIcon(13)/> / [<If(Equal(PlayerParameter(78),3))>x<Else/>X</If>]\n동작 멈추기(전체)\n　…<CommandIcon(14)/> / [1]\n동작 멈추기(선택한 대상)\n　…<CommandIcon(15)/> / [2]\n주시할 캐릭터 변경\n　…<CommandIcon(6)/> / [<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>]\n카메라 조작\n　…<CommandIcon(20)/> / [<If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>]\n카메라 초기화\n　…<Gui(16)/> / [<If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>]',
       ShortAlias: '/단체',
       ShortCommand: '/gpose',
     },
@@ -21113,7 +22372,7 @@ const data: MacrosData = {
       Alias: '/경관카메라',
       Command: '/idlingcamera',
       Description:
-        '/경관카메라 "대명사"\n경관 카메라를 실행합니다.\n대명사는 생략 가능하며, 생략할 경우 다양한 시점에서 주위를 둘러봅니다. 대명사를 지정하면 카메라가 해당 캐릭터를 주시합니다.\n\n>>세부 조작\n카메라 설정 창 표시\n …<CommandIcon(10)/> / [R], 숫자패드 [*] / 마우스 휠 클릭\n카메라 시점 전환 정지 및 재개\n …<CommandIcon(8)/> / 숫자패드 [0] / 왼쪽 클릭\n장면 건너뛰기\n …<CommandIcon(6)/> / [Tab,Shift+Tab]\n카메라 조작\n …<CommandIcon(20)/> / [W,A,S,D,Q,E]\n카메라 초기화\n …<Gui(16)/> / [Z]\n용례\n/경관카메라\n …피사체를 무작위로 선택하여 실행합니다.\n/경관카메라 <t>\n …지정한 대상만을 피사체로 선택하여 실행합니다.',
+        '/경관카메라 "대명사"\n경관 카메라를 실행합니다.\n대명사는 생략 가능하며, 생략할 경우 다양한 시점에서 주위를 둘러봅니다. 대명사를 지정하면 카메라가 해당 캐릭터를 주시합니다.\n\n>>세부 조작\n카메라 설정 창 표시\n …<CommandIcon(10)/> / [<If(Equal(PlayerParameter(78),3))>r<Else/>R</If>], 숫자패드 [*] / 마우스 휠 클릭\n카메라 시점 전환 정지 및 재개\n …<CommandIcon(8)/> / 숫자패드 [0] / 왼쪽 클릭\n장면 건너뛰기\n …<CommandIcon(6)/> / [<If(Equal(PlayerParameter(78),3))>tab,shift+tab<Else/>Tab,Shift+Tab</If>]\n카메라 조작\n …<CommandIcon(20)/> / [<If(Equal(PlayerParameter(78),3))>w,a,s,d,q,e<Else/>W,A,S,D,Q,E</If>]\n카메라 초기화\n …<Gui(16)/> / [<If(Equal(PlayerParameter(78),3))>z<Else/>Z</If>]\n용례\n/경관카메라\n …피사체를 무작위로 선택하여 실행합니다.\n/경관카메라 <t>\n …지정한 대상만을 피사체로 선택하여 실행합니다.',
       ShortAlias: '/경관',
       ShortCommand: '/icam',
     },
@@ -21148,7 +22407,7 @@ const data: MacrosData = {
       Alias: '/에기외형',
       Command: '/egiglamour',
       Description:
-        '/에기외형(/소환수외형) "소환수 이름" "외형 이름"\n다음부터 소환하는 소환수의 외형을 변경합니다.\n단, PvP 임무 중에는 적용되지 않습니다.\n>>소환수 이름\n"카벙클"\n"가루다 에기"\n"타이탄 에기"\n"이프리트 에기"\n>>외형 이름\n"카벙클"\n"카벙클 에메랄드"\n"카벙클 토파즈"\n"카벙클 루비"\n"이프리트 에기"\n"타이탄 에기"\n"가루다 에기"\n※ 소환수 이름 생략(clear)\n …소환수의 모습을 원래대로 되돌립니다.\n\n용례\n/에기외형 "가루다 에기" "카벙클 루비"\n …가루다 에기의 외형을 카벙클 루비로 변경합니다.',
+        '/에기외형(/소환수외형) "소환수 이름" "외형 이름"\n다음부터 소환하는 소환수의 외형을 변경합니다.\n단, PvP 임무 중에는 적용되지 않습니다.\n>>소환수 이름\n"카벙클"\n"가루다 에기"\n"타이탄 에기"\n"이프리트 에기"\n"요정 에오스"\n>>외형 이름\n"카벙클"\n"카벙클 에메랄드"\n"카벙클 토파즈"\n"카벙클 루비"\n"이프리트 에기"\n"타이탄 에기"\n"가루다 에기"\n"요정 셀레네"\n※ 외형 이름 생략(clear)\n  …소환수의 모습을 원래대로 되돌립니다.\n※ 보조명령어 생략\n  …소환수 외형 설정 상태가 대화창에 표시됩니다.\n\n  용례\n/에기외형 "가루다 에기" "카벙클 루비"\n  …가루다 에기의 외형을 카벙클 루비로 변경합니다./에기외형 "가루다 에기"\n  …가루다 에기의 외형을 원래대로 되돌립니다.\n/에기외형\n  …소환수 외형 설정 상태를 대화창에 표시합니다.',
       ShortAlias: '/소환수외형',
       ShortCommand: '',
     },
@@ -21263,7 +22522,7 @@ const data: MacrosData = {
       Alias: '/기술시전',
       Command: '/action',
       Description:
-        '/기술시전(/시전) "기술 이름" "대명사"\n지정한 대상에게 기술을 실행합니다. 자신을 대상으로 실행할 수 있는 기술일 경우, 대명사를 생략할 수 있습니다. 기술을 실행할 수 없는 상황이거나, 아직 습득하지 않은 기술인 경우에는 실행할 수 없습니다.\n\n지면 조준형 기술은 기술 이름 뒤에 아래 보조명령어를 입력하면 조작 모드를 제어할 수 있습니다.\n대명사\n　…지면 조준 모드를 생략하고, 지정한 대상 기준으로 지면 조준형 기술을 직접 실행합니다.\n지면조준끄기(gtoff)\n　…지면 조준 모드를 생략하고 기술을 직접 실행합니다.\n\n용례\n/기술시전 "육중한 일격" <t>\n　…선택한 대상에게 \'육중한 일격\'을 실행합니다.\n/기술시전 "케알" <2>\n …2번 파티원에게 \'케알\'을 실행합니다.\n/기술시전 "축지법" <t>\n　…선택한 대상이 있는 위치로 \'축지법\'을 실행합니다.\n/기술시전 "축지법" 지면조준끄기\n　…커서 위치로 \'축지법\'을 직접 실행합니다.',
+        '/기술시전(/시전) "기술 이름" "대명사"\n지정한 대상에게 기술을 실행합니다. 기술을 실행할 수 없는 상황이거나, 아직 습득하지 않은 기술인 경우에는 실행할 수 없습니다.\n\n지면 조준형 기술은 기술 이름 뒤에 아래 보조명령어를 입력하면 조작 모드를 제어할 수 있습니다.\n대명사\n　…지면 조준 모드를 생략하고, 지정한 대상 기준으로 지면 조준형 기술을 직접 실행합니다.\n지면조준끄기(gtoff)\n　…지면 조준 모드를 생략하고 기술을 직접 실행합니다.\n\n용례\n/기술시전 "육중한 일격" <t>\n　…선택한 대상에게 \'육중한 일격\'을 실행합니다.\n/기술시전 "케알" <2>\n …2번 파티원에게 \'케알\'을 실행합니다.\n/기술시전 "축지법" <t>\n　…선택한 대상이 있는 위치로 \'축지법\'을 실행합니다.\n/기술시전 "축지법" 지면조준끄기\n　…커서 위치로 \'축지법\'을 직접 실행합니다.',
       ShortAlias: '/시전',
       ShortCommand: '/ac',
     },
@@ -21433,7 +22692,7 @@ const data: MacrosData = {
       Alias: '/보조기술',
       Command: '/additionalaction',
       Description:
-        '/보조기술 "기술 이름" 보조명령어\n지정한 기술을 보조 기술로 설정합니다. 제작자 및 채집가로만 사용할 수 있습니다. "기술 이름" 대신 "해제(clear)"를 입력하면 현재 설정되어 있는 보조 기술을 모두 해제합니다.\n>>보조명령어\n켜기(on) \n …지정한 기술을 설정합니다.\n끄기(off) \n …지정한 기술을 해제합니다.\n※ 보조명령어 생략\n …설정/해제를 전환합니다.\n\n용례\n/보조기술 "원예가의 눈" 켜기\n …\'원예가의 눈\'를 보조 기술로 설정합니다.\n/보조기술 해제\n …설정한 보조 기술을 모두 해제합니다.',
+        '/보조기술\n보조 기술을 설정할 수 있다고 여겨졌던 기능.\n※ 시스템이 변경되어 현재 이용할 수 없습니다.',
       ShortAlias: '',
       ShortCommand: '/aaction',
     },
@@ -21442,7 +22701,7 @@ const data: MacrosData = {
       Alias: '/일반기술시전',
       Command: '/generalaction',
       Description:
-        '/일반기술시전 "일반 기술 이름" "대명사"\n지정한 캐릭터를 대상으로 일반 기술을 실행합니다. 자신을 대상으로 지정할 수 있는 일반 기술은 대명사를 생략할 수 있습니다. 일반 기술을 실행할 수 없는 상황이거나, 아직 습득하지 않은 경우에는 실행할 수 없습니다.\n\n지면 조준형 기술은 기술 이름 뒤에 아래 보조명령어를 입력하면 조작 모드를 제어할 수 있습니다.\n대명사\n …지면 조준 모드를 생략하고, 지정한 대상 기준으로 기술을 직접 실행합니다.\n지면조준끄기(gtoff)\n …지면 조준 모드를 생략하고, 기술을 직접 실행합니다.\n용례\n/일반기술시전 "탈것 무작위 호출"\n …\'탈것 무작위 호출\'을 실행합니다.\n/일반기술시전 "임무용 기술 1"<t>\n …선택한 대상에게 \'임무용 기술 1\'을 실행합니다.',
+        '/일반기술시전 "일반 기술 이름" "대명사"\n지정한 캐릭터를 대상으로 일반 기술을 실행합니다. 일반 기술을 실행할 수 없는 상황이거나, 아직 습득하지 않은 경우에는 실행할 수 없습니다.\n\n지면 조준형 기술은 기술 이름 뒤에 아래 보조명령어를 입력하면 조작 모드를 제어할 수 있습니다.\n대명사\n …지면 조준 모드를 생략하고, 지정한 대상 기준으로 기술을 직접 실행합니다.\n지면조준끄기(gtoff)\n …지면 조준 모드를 생략하고, 기술을 직접 실행합니다.\n용례\n/일반기술시전 "탈것 무작위 호출"\n …\'탈것 무작위 호출\'을 실행합니다.\n/일반기술시전 "임무용 기술 1"<t>\n …선택한 대상에게 \'임무용 기술 1\'을 실행합니다.',
       ShortAlias: '',
       ShortCommand: '/gaction',
     },
@@ -21469,7 +22728,7 @@ const data: MacrosData = {
       Alias: '/대인보조기술',
       Command: '/addpvpaction',
       Description:
-        '/대인보조기술(/대인기술설정) "PvP 보조 기술 1" "PvP 보조 기술 2"\nPvP 전용 보조 기술을 설정합니다. 2개의 기술을 동시에 설정해야 합니다.\n\n용례\n/대인보조기술 "무기 투척" "전력 강타"\n …PvP에서 사용할 보조 기술로 \'무기 투척\'과 \'전력 강타\'를 설정합니다.',
+        '/대인보조기술(/대인기술설정)\nPvP 전용 보조 기술을 설정할 수 있다고 여겨졌던 기능.\n※ 시스템이 변경되어 현재 이용할 수 없습니다.',
       ShortAlias: '/대인기술설정',
       ShortCommand: '/apa',
     },
@@ -21478,7 +22737,7 @@ const data: MacrosData = {
       Alias: '/대인기술시전',
       Command: '/pvpaction',
       Description:
-        '/대인기술시전(/대인시전) "PvP 기술 이름" "대명사"\n대상에게 PvP 기술을 실행합니다. 자신을 대상으로 실행할 수 있는 기술은 대명사를 생략할 수 있습니다. 기술을 실행할 수 없는 상황이거나, 아직 습득하지 않은 기술인 경우에는 실행할 수 없습니다.\n지면 조준형 기술은 기술 이름 뒤에 아래 보조명령어를 입력하면 조작 모드를 제어할 수 있습니다.\n대명사\n　…지면 조준 모드를 생략하고, 지정한 대상 기준으로 지면 조준형 기술을 직접 실행합니다.\n지면조준끄기(gtoff)\n　…지면 조준 모드를 생략하고 기술을 직접 실행합니다.\n\n용례\n/대인기술시전 "폭풍 쐐기 콤보" <t>\n　…선택한 대상에게 폭풍 쐐기 콤보 기술을 실행합니다.\n/대인기술시전 "축지법"  <t>\n　…선택한 대상이 있는 위치로 \'축지법\'을 실행합니다.\n/대인기술시전 "축지법" 지면조준끄기\n　…커서 위치로 \'축지법\'을 직접 실행합니다.',
+        '/대인기술시전(/대인시전) "PvP 기술 이름" "대명사"\n대상에게 PvP 기술을 실행합니다. 기술을 실행할 수 없는 상황이거나, 아직 습득하지 않은 기술인 경우에는 실행할 수 없습니다.\n지면 조준형 기술은 기술 이름 뒤에 아래 보조명령어를 입력하면 조작 모드를 제어할 수 있습니다.\n대명사\n　…지면 조준 모드를 생략하고, 지정한 대상 기준으로 지면 조준형 기술을 직접 실행합니다.\n지면조준끄기(gtoff)\n　…지면 조준 모드를 생략하고 기술을 직접 실행합니다.\n\n용례\n/대인기술시전 "폭풍 쐐기 콤보" <t>\n　…선택한 대상에게 폭풍 쐐기 콤보 기술을 실행합니다.\n/대인기술시전 "축지법"  <t>\n　…선택한 대상이 있는 위치로 \'축지법\'을 실행합니다.\n/대인기술시전 "축지법" 지면조준끄기\n　…커서 위치로 \'축지법\'을 직접 실행합니다.',
       ShortAlias: '/대인시전',
       ShortCommand: '/pvpac',
     },
@@ -21487,7 +22746,7 @@ const data: MacrosData = {
       Alias: '/청마법',
       Command: '/blueaction',
       Description:
-        '/청마법 "청마법 이름" "대명사"\n대명사로 지정한 대상에게 청마법을 시전합니다.\n지면 조준형 기술은 기술 이름 뒤에 아래 보조명령어를 입력하면 조작 모드를 제어할 수 있습니다.\n대명사\n　…지면 조준 모드를 생략하고, 지정한 대상 기준으로 지면 조준형 기술을 직접 실행합니다.\n지면조준끄기(gtoff)\n　…지면 조준 모드를 생략하고 기술을 직접 실행합니다.\n\n용례\n/청마법 "물대포" <t>\n　…선택한 대상에게 \'물대포\'를 시전합니다.',
+        '/청마법 "청마법 이름" "대명사"\n대명사로 지정한 대상에게 청마법을 시전합니다. 기술을 실행할 수 없는 환경에 있거나, 기술을 체득하지 않은 경우 실행할 수 없습니다.\n지면 조준형 기술은 기술 이름 뒤에 아래 보조명령어를 입력하면 조작 모드를 제어할 수 있습니다.\n대명사\n　…지면 조준 모드를 생략하고, 지정한 대상 기준으로 지면 조준형 기술을 직접 실행합니다.\n지면조준끄기(gtoff)\n　…지면 조준 모드를 생략하고 기술을 직접 실행합니다.\n\n용례\n/청마법 "물대포" <t>\n　…선택한 대상에게 \'물대포\'를 시전합니다.',
       ShortAlias: '',
       ShortCommand: '',
     },
@@ -21541,7 +22800,7 @@ const data: MacrosData = {
       Alias: '/자동대상',
       Command: '/autotarget',
       Description:
-        "/자동대상 보조명령어\n캐릭터 설정에서 '대상 미지정 시 자동으로 대상 선택' 기능을 설정합니다.\n>>보조명령어\n켜기(on) \n …기능을 켭니다.\n끄기(off) \n …기능을 끕니다.\n※ 보조명령어 생략\n …기능 켜기/끄기를 전환합니다.",
+        "/자동대상 보조명령어\n캐릭터 설정에서 '적대 기술 실행 시 실행 대상을 자동으로 선택' 기능을 설정합니다.\n>>보조명령어\n켜기(on) \n …기능을 켭니다.\n끄기(off) \n …기능을 끕니다.\n※ 보조명령어 생략\n …기능 켜기/끄기를 전환합니다.",
       ShortAlias: '',
       ShortCommand: '',
     },
@@ -22771,7 +24030,7 @@ const data: MacrosData = {
       Alias: '/전투태세',
       Command: '/battlestance',
       Description:
-        '/전투태세 보조명령어\n전투에 태세를 취합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+        '/전투태세 보조명령어\n전투태세를 취합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
       ShortAlias: '',
       ShortCommand: '/bstance',
     },
@@ -23728,6 +24987,15 @@ const data: MacrosData = {
       ShortCommand: '',
     },
     {
+      ID: 635,
+      Alias: '/초코먹기',
+      Command: '/eatchocolate',
+      Description:
+        '/초코먹기(/초코) 보조명령어\n발렌티온 초콜릿을 먹습니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/초코',
+      ShortCommand: '/choco',
+    },
+    {
       ID: 636,
       Alias: '/달걀먹기',
       Command: '/eategg',
@@ -23797,6 +25065,195 @@ const data: MacrosData = {
       Description:
         '/왼쪽봐(/짜잔왼) 보조명령어\n자신의 왼쪽에 있는 것을 보여줍니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
       ShortAlias: '/짜잔왼',
+      ShortCommand: '',
+    },
+    {
+      ID: 646,
+      Alias: '/조롱',
+      Command: '/deride',
+      Description:
+        '/조롱(/파가가) 보조명령어\n조롱하는 몸짓을 합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/파가가',
+      ShortCommand: '/pagaga',
+    },
+    {
+      ID: 647,
+      Alias: '/초롱초롱',
+      Command: '/wow',
+      Description:
+        '/초롱초롱 보조명령어\n눈을 초롱초롱 빛냅니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 648,
+      Alias: '/호박쿠키먹기',
+      Command: '/eatpumpkincookie',
+      Description:
+        '/호박쿠키먹기(/쿠키) 보조명령어\n호박 쿠키를 먹습니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/쿠키',
+      ShortCommand: '/cookie',
+    },
+    {
+      ID: 649,
+      Alias: '/관전',
+      Command: '/spirit',
+      Description:
+        '/관전 보조명령어\n응원을 보내며 관전합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 650,
+      Alias: '/마술',
+      Command: '/magictrick',
+      Description:
+        '/마술 보조명령어\n마술을 부립니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 651,
+      Alias: '/공주님춤',
+      Command: '/littleladiesdance',
+      Description:
+        '/공주님춤(/공주춤) 보조명령어\n공주님 춤을 춥니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/공주춤',
+      ShortCommand: '/ladance',
+    },
+    {
+      ID: 652,
+      Alias: '/링크펄',
+      Command: '/linkpearl',
+      Description:
+        '/링크펄 보조명령어\n링크펄 통신을 합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 653,
+      Alias: '/귀쫑긋',
+      Command: '/earwiggle',
+      Description:
+        '/귀쫑긋(/토끼귀) 보조명령어\n귀를 쫑긋거립니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/토끼귀',
+      ShortCommand: '',
+    },
+    {
+      ID: 657,
+      Alias: '/놀래기',
+      Command: '/frighten',
+      Description:
+        '/놀래기 보조명령어\n놀라게 합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 658,
+      Alias: '/빛전강림',
+      Command: '/adventoflight',
+      Description:
+        '/빛전강림(/강림) 보조명령어\n용감하게 강림합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/강림',
+      ShortCommand: '/advent',
+    },
+    {
+      ID: 659,
+      Alias: '/행복점프1',
+      Command: '/jumpforjoy1',
+      Description:
+        '/행복점프1(/점프1) 보조명령어\n귀엽게 점프합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/점프1',
+      ShortCommand: '/jj1',
+    },
+    {
+      ID: 660,
+      Alias: '/행복점프2',
+      Command: '/jumpforjoy2',
+      Description:
+        '/행복점프2(/점프2) 보조명령어\n기쁜 듯이 점프합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/점프2',
+      ShortCommand: '/jj2',
+    },
+    {
+      ID: 661,
+      Alias: '/행복점프3',
+      Command: '/jumpforjoy3',
+      Description:
+        '/행복점프3(/점프3) 보조명령어\n힘차게 점프합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/점프3',
+      ShortCommand: '/jj3',
+    },
+    {
+      ID: 662,
+      Alias: '/행복점프4',
+      Command: '/jumpforjoy4',
+      Description:
+        '/행복점프4(/점프4) 보조명령어\n팔다리를 쭉 뻗으며 점프합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/점프4',
+      ShortCommand: '/jj4',
+    },
+    {
+      ID: 663,
+      Alias: '/행복점프5',
+      Command: '/jumpforjoy5',
+      Description:
+        '/행복점프5(/점프5) 보조명령어\n사보텐더처럼 점프합니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/점프5',
+      ShortCommand: '/jj5',
+    },
+    {
+      ID: 664,
+      Alias: '/가슴에손',
+      Command: '/handtoheart',
+      Description:
+        '/가슴에손 보조명령어\n가슴에 손을 얹습니다.\n>>보조명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 665,
+      Alias: '/하얀응원',
+      Command: '/cheeronbright',
+      Description:
+        '/하얀응원 보조명령어\n흰색 응원봉을 흔들며 응원합니다.\n>>보조 명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '/cheerbright',
+    },
+    {
+      ID: 666,
+      Alias: '/보라응원',
+      Command: '/cheerwaveviolet',
+      Description:
+        '/보라응원 보조명령어\n보라색 응원봉을 흔들며 응원합니다.\n>>보조 명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '/cheerviolet',
+    },
+    {
+      ID: 667,
+      Alias: '/초록응원',
+      Command: '/cheerjumpgreen',
+      Description:
+        '/초록응원 보조명령어\n초록색 응원봉을 흔들며 응원합니다.\n>>보조 명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '/cheergreen',
+    },
+    {
+      ID: 668,
+      Alias: '/수호천절주문',
+      Command: '/allsaintscharm',
+      Description:
+        '/수호천절주문 보조명령어\n수호천절 주문을 겁니다.\n>>보조 명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '',
+      ShortCommand: '',
+    },
+    {
+      ID: 671,
+      Alias: '/문헌비교',
+      Command: '/reference',
+      Description:
+        '/문헌비교(/문헌) 보조명령어\n문헌과 비교합니다.\n>>보조 명령어\n동작(motion)\n …동작만 실행하고 감정 표현 문장은 표시되지 않습니다.\n※ 보조명령어 생략\n …동작과 감정 표현 문장이 표시됩니다.',
+      ShortAlias: '/문헌',
       ShortCommand: '',
     },
   ],
