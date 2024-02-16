@@ -18,14 +18,14 @@ const options: BuildOptions = {
     format: 'cjs',
     outdir: 'dist',
   })
-  
+
   console.log('Building d.ts files...')
   await transpile('src/index.ts', {
     declaration: true,
     emitDeclarationOnly: true,
     outDir: 'dist',
   })
-  
+
   console.log('Adding ESM entry...')
   await writeFile('dist/index.mjs', `export * from './index.js'`)
 })()
