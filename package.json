@@ -1,6 +1,6 @@
 {
   "name": "ffxiv-textcommand-data",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Provide FFXIV Text Command Data from NPM Package",
   "keywords": [
     "ffxiv",
