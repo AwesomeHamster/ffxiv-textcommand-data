@@ -19,13 +19,9 @@ export class Updater {
 
     const allMacros: MacrosData = Object.assign(macros, cnMacros, koMacros)
 
-    const dataFile = path.resolve(__dirname, '../src/data.ts')
-    let data =
-      "import { MacrosData } from './utils'\n\n" +
-      'const data: MacrosData = ' +
-      JSON.stringify(allMacros, null, 2) +
-      '\n\nexport default data\n'
-    await writeFile(dataFile, data, 'utf8')
+    const dataFile = path.resolve(__dirname, '../data/macro.json')
+
+    await writeFile(dataFile, JSON.stringify(allMacros), 'utf8')
   }
 
   async fetchXivapi<T>(url: string, columns: string[]): Promise<T[]> {
