@@ -25,7 +25,7 @@
   "scripts": {
     "build": "yarn tsup --minify",
     "dev": "yarn tsup --sourcemap",
-    "tsup": "tsup src/index.ts --dts --format cjs,esm --clean --loader \".json=file\"",
+    "tsup": "tsup src/index.ts --dts --format cjs,esm --clean --loader \".json=copy\"",
     "fetch-data": "tsx scripts/fetch-data.ts",
     "test": "yarn test:text",
     "test:text": "nyc --reporter=text mocha ./__tests__",
